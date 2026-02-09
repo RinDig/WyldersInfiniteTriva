@@ -1,0 +1,13 @@
+name = "wylders-trivia-api"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# Your Anthropic API key - set via: npx wrangler secret put ANTHROPIC_API_KEY
+# [vars]
+# ANTHROPIC_API_KEY = "set-via-wrangler-secret"
+
+# Optional: KV namespace for server-side rate limiting
+# Created with: npx wrangler kv namespace create "RATE_LIMIT"
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "61591d06add443798ccc6f9d784df4ee"
