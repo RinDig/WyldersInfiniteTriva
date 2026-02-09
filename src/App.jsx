@@ -23,6 +23,38 @@ const DIFFICULTIES = [
   { id: 'expert', label: 'Expert', color: 'expert' },
 ]
 
+// ---- QUESTION TRACKING ----
+const MAX_SEEN_QUESTIONS = 200 // Remember last 200 questions
+
+function getSeenQuestions() {
+  const data = localStorage.getItem('wylder_seen_questions')
+  if (!data) return []
+  return JSON.parse(data)
+}
+
+function saveSeenQuestions(seen) {
+  localStorage.setItem('wylder_seen_questions', JSON.stringify(seen))
+}
+
+function markQuestionsSeen(questions) {
+  const seen = getSeenQuestions()
+  const questionIds = questions.map(q => hashQuestion(q))
+  const updated = [...new Set([...questionIds, ...seen])] // Unique, new ones first
+  const trimmed = updated.slice(0, MAX_SEEN_QUESTIONS) // Keep only last 200
+  saveSeenQuestions(trimmed)
+}
+
+function hashQuestion(question) {
+  // Simple hash: combine question text + first option/answer
+  const key = question.question + (question.options?.[0] || question.answer || '')
+  let hash = 0
+  for (let i = 0; i < key.length; i++) {
+    hash = ((hash << 5) - hash) + key.charCodeAt(i)
+    hash = hash & hash // Convert to 32bit integer
+  }
+  return hash.toString()
+}
+
 // ---- PROGRESS TRACKING ----
 function getProgress() {
   const data = localStorage.getItem('wylder_progress')
@@ -360,13 +392,35 @@ export default function App() {
         throw new Error('No questions available for this topic/difficulty!')
       }
 
-      // Shuffle and select
-      const shuffled = shuffleArray(availableQuestions)
-      const selected = shuffled.slice(0, Math.min(QUESTIONS_PER_QUIZ, shuffled.length))
+      // Filter out recently seen questions
+      const seenIds = getSeenQuestions()
+      const unseenQuestions = availableQuestions.filter(q => {
+        const id = hashQuestion(q)
+        return !seenIds.includes(id)
+      })
 
-      // If we need more questions, cycle through again
-      while (selected.length < QUESTIONS_PER_QUIZ) {
-        selected.push(...shuffled.slice(0, QUESTIONS_PER_QUIZ - selected.length))
+      // Use unseen questions first, then fall back to all if needed
+      const questionsToUse = unseenQuestions.length >= QUESTIONS_PER_QUIZ
+        ? unseenQuestions
+        : [...unseenQuestions, ...availableQuestions]
+
+      // Shuffle and select unique questions
+      const shuffled = shuffleArray(questionsToUse)
+      const selected = []
+      const usedHashes = new Set()
+
+      for (const question of shuffled) {
+        if (selected.length >= QUESTIONS_PER_QUIZ) break
+        const hash = hashQuestion(question)
+        if (!usedHashes.has(hash)) {
+          selected.push(question)
+          usedHashes.add(hash)
+        }
+      }
+
+      // If still not enough (very rare), just fill with what we have
+      if (selected.length < QUESTIONS_PER_QUIZ) {
+        console.warn(`Only found ${selected.length} unique questions, needed ${QUESTIONS_PER_QUIZ}`)
       }
 
       setQuestions(selected)
@@ -406,6 +460,9 @@ export default function App() {
   const finishQuiz = async () => {
     const pct = Math.round((score / questions.length) * 100)
     const updatedProgress = updateProgress(topic, difficulty, score, questions.length)
+
+    // Mark these questions as seen
+    markQuestionsSeen(questions)
 
     // Generate AI personalized message
     const topicLabel = TOPICS.find(t => t.id === topic)?.label || 'various topics'
