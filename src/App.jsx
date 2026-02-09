@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import confetti from 'canvas-confetti'
 
 // ---- CONFIG ----
-const WORKER_URL = '__WORKER_URL__' // replaced at build or set manually
+const WORKER_URL = 'https://wylders-trivia-api.vancliefmedia.workers.dev'
 const MAX_WEEKLY_GENS = 10
 const QUESTIONS_PER_QUIZ = 35
 
