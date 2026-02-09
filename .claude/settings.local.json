@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Wylder''s Infinite Trivia app\n\n- React SPA with quiz generation via Claude\n- Cloudflare Worker API proxy with rate limiting\n- GitHub Actions workflow for Pages deployment\n- KV namespace configured for server-side limits\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nConfigure Cloudflare Worker URL\n\nSet the worker URL to the deployed endpoint so the app works immediately without manual configuration.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git branch:*)",
+      "Bash(git commit:*)"
     ]
   }
 }

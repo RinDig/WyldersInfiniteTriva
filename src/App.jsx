@@ -1,9 +1,9 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import confetti from 'canvas-confetti'
+import questionBank from './data/questions.json'
 
 // ---- CONFIG ----
 const WORKER_URL = 'https://wylders-trivia-api.vancliefmedia.workers.dev'
-const MAX_WEEKLY_GENS = 10
 const QUESTIONS_PER_QUIZ = 35
 
 const TOPICS = [
@@ -23,33 +23,52 @@ const DIFFICULTIES = [
   { id: 'expert', label: 'Expert', color: 'expert' },
 ]
 
-const LOADING_MESSAGES = [
-  'Exploring the universe of knowledge...',
-  'Crafting brain-tickling questions...',
-  'Searching through ancient scrolls...',
-  'Consulting the oracle of trivia...',
-  'Gathering fascinating facts...',
-  'Assembling your adventure...',
-]
+// ---- PROGRESS TRACKING ----
+function getProgress() {
+  const data = localStorage.getItem('wylder_progress')
+  if (!data) return { totalQuizzes: 0, topicStats: {}, achievements: [] }
+  return JSON.parse(data)
+}
+
+function saveProgress(progress) {
+  localStorage.setItem('wylder_progress', JSON.stringify(progress))
+}
+
+function updateProgress(topic, difficulty, score, total) {
+  const progress = getProgress()
+  progress.totalQuizzes = (progress.totalQuizzes || 0) + 1
+
+  if (!progress.topicStats[topic]) {
+    progress.topicStats[topic] = { played: 0, totalCorrect: 0, totalQuestions: 0 }
+  }
+  progress.topicStats[topic].played++
+  progress.topicStats[topic].totalCorrect += score
+  progress.topicStats[topic].totalQuestions += total
+
+  // Check for achievements
+  const pct = Math.round((score / total) * 100)
+  if (pct === 100 && !progress.achievements.includes('perfect')) {
+    progress.achievements.push('perfect')
+  }
+  if (progress.totalQuizzes === 10 && !progress.achievements.includes('explorer')) {
+    progress.achievements.push('explorer')
+  }
+  if (difficulty === 'expert' && pct >= 80 && !progress.achievements.includes('expert')) {
+    progress.achievements.push('expert')
+  }
+
+  saveProgress(progress)
+  return progress
+}
 
 // ---- HELPERS ----
-function getWeekKey() {
-  const now = new Date()
-  const start = new Date(now.getFullYear(), 0, 1)
-  const week = Math.ceil(((now - start) / 86400000 + start.getDay() + 1) / 7)
-  return `trivia_week_${now.getFullYear()}_${week}`
-}
-
-function getGenCount() {
-  const key = getWeekKey()
-  return parseInt(localStorage.getItem(key) || '0', 10)
-}
-
-function incrementGenCount() {
-  const key = getWeekKey()
-  const count = getGenCount() + 1
-  localStorage.setItem(key, count.toString())
-  return count
+function shuffleArray(array) {
+  const arr = [...array]
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
 }
 
 function fireConfetti() {
@@ -256,7 +275,7 @@ function QuestionView({ question, index, total, onAnswer, answered }) {
 }
 
 // ---- RESULTS SCREEN ----
-function Results({ correct, total, bestStreak, onPlayAgain }) {
+function Results({ correct, total, bestStreak, aiMessage, onPlayAgain }) {
   const pct = Math.round((correct / total) * 100)
 
   useEffect(() => {
@@ -264,21 +283,20 @@ function Results({ correct, total, bestStreak, onPlayAgain }) {
   }, [pct])
 
   const emoji = pct >= 90 ? '🏆' : pct >= 70 ? '🌟' : pct >= 50 ? '👏' : '💪'
-  const msg =
-    pct >= 90
-      ? "Incredible! You're a true trivia champion!"
-      : pct >= 70
-        ? 'Great job! You really know your stuff!'
-        : pct >= 50
-          ? "Nice work! You're learning a lot!"
-          : "Keep exploring! Every question makes you smarter!"
 
   return (
     <div className="results-container">
       <span className="results-emoji">{emoji}</span>
       <h2 className="results-title">Quiz Complete!</h2>
       <div className="results-score">{pct}%</div>
-      <p className="results-message">{msg}</p>
+
+      {aiMessage && (
+        <div className="ai-message">
+          <div className="ai-coach-header">🤖 Your AI Coach Says:</div>
+          <div className="ai-coach-text">{aiMessage}</div>
+        </div>
+      )}
+
       <div className="results-stats">
         <div className="stat-card">
           <div className="stat-value" style={{ color: 'var(--color-correct)' }}>{correct}</div>
@@ -302,7 +320,7 @@ function Results({ correct, total, bestStreak, onPlayAgain }) {
 
 // ---- MAIN APP ----
 export default function App() {
-  const [screen, setScreen] = useState('home') // home, loading, quiz, results, error
+  const [screen, setScreen] = useState('home') // home, quiz, results, error
   const [topic, setTopic] = useState('random')
   const [difficulty, setDifficulty] = useState('medium')
   const [questions, setQuestions] = useState([])
@@ -311,124 +329,55 @@ export default function App() {
   const [score, setScore] = useState(0)
   const [streak, setStreak] = useState(0)
   const [bestStreak, setBestStreak] = useState(0)
-  const [genCount, setGenCount] = useState(getGenCount())
   const [error, setError] = useState('')
-  const [loadingMsg, setLoadingMsg] = useState('')
+  const [aiMessage, setAiMessage] = useState('')
+  const [progress] = useState(getProgress())
 
-  // cycle loading messages
-  useEffect(() => {
-    if (screen !== 'loading') return
-    let i = 0
-    setLoadingMsg(LOADING_MESSAGES[0])
-    const interval = setInterval(() => {
-      i = (i + 1) % LOADING_MESSAGES.length
-      setLoadingMsg(LOADING_MESSAGES[i])
-    }, 2500)
-    return () => clearInterval(interval)
-  }, [screen])
-
-  const generateQuiz = useCallback(async () => {
-    if (genCount >= MAX_WEEKLY_GENS) {
-      setError("You've used all 10 quiz generations this week! Come back next week for more adventures. 🗓️")
-      setScreen('error')
-      return
-    }
-
-    setScreen('loading')
+  const generateQuiz = useCallback(() => {
     setQuestions([])
     setCurrentQ(0)
     setAnswers([])
     setScore(0)
     setStreak(0)
     setBestStreak(0)
-
-    const topicLabel = TOPICS.find((t) => t.id === topic)?.label || 'random topics'
-    const diffLabel = difficulty.charAt(0).toUpperCase() + difficulty.slice(1)
-
-    const prompt = `Generate a trivia quiz for a very smart 8-year-old named Wylder who reads well above her grade level.
-
-Topic: ${topicLabel}
-Difficulty: ${diffLabel}
-Number of questions: ${QUESTIONS_PER_QUIZ}
-
-IMPORTANT: Respond with ONLY a valid JSON array, no other text. Each item must have this exact structure:
-
-For multiple_choice questions:
-{"type":"multiple_choice","question":"...","options":["A","B","C","D"],"correct_index":0,"explanation":"...","image_query":null,"hint":null}
-
-For true_false questions:
-{"type":"true_false","question":"...","options":["True","False"],"correct_index":0,"explanation":"...","image_query":null,"hint":null}
-
-For fill_in questions:
-{"type":"fill_in","question":"...","answer":"one or two word answer","explanation":"...","image_query":null,"hint":"..."}
-
-For image-based questions (use a descriptive Unsplash search term for image_query):
-{"type":"image","question":"...","options":["A","B","C","D"],"correct_index":0,"explanation":"...","image_query":"descriptive search term","hint":null}
-
-Rules:
-- Mix of types: ~50% multiple choice, ~15% true/false, ~15% fill in, ~20% image-based
-- Questions should be genuinely interesting and teach cool facts
-- Explanations should be fun and educational (1-2 sentences)
-- fill_in answers must be short (1-2 words)
-- image_query should be specific Unsplash search terms when used (e.g. "monarch butterfly migration" not just "butterfly")
-- Include hints for harder questions
-- ${difficulty === 'easy' ? 'Keep it fun and confidence-building' : difficulty === 'hard' ? 'Challenge her with deeper knowledge' : difficulty === 'expert' ? 'Make it genuinely challenging, university-level concepts explained simply' : 'A good mix of easy and challenging'}
-- Make sure facts are ACCURATE
-- For ${topic === 'random' ? 'random topics, pick an exciting mix of science, history, animals, space, mythology, and geography' : topicLabel}
-
-Return ONLY the JSON array.`
+    setAiMessage('')
 
     try {
-      const workerUrl = WORKER_URL || localStorage.getItem('trivia_worker_url') || ''
-      if (!workerUrl) {
-        setError("No Worker URL configured. Add your Cloudflare Worker URL in the settings.")
-        setScreen('error')
-        return
-      }
+      // Get questions from the bank
+      let availableQuestions = []
 
-      const res = await fetch(workerUrl, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ prompt }),
-      })
-
-      if (!res.ok) {
-        const errText = await res.text()
-        throw new Error(`API error (${res.status}): ${errText}`)
-      }
-
-      const data = await res.json()
-
-      // Claude returns content array, extract text
-      let text = ''
-      if (data.content && Array.isArray(data.content)) {
-        text = data.content.map((c) => c.text || '').join('')
-      } else if (typeof data === 'string') {
-        text = data
-      } else if (data.text) {
-        text = data.text
+      if (topic === 'random') {
+        // Mix from all topics
+        TOPICS.filter(t => t.id !== 'random').forEach(t => {
+          const topicQuestions = questionBank[t.id]?.[difficulty] || []
+          availableQuestions.push(...topicQuestions)
+        })
       } else {
-        text = JSON.stringify(data)
+        availableQuestions = questionBank[topic]?.[difficulty] || []
       }
 
-      // extract JSON array from response
-      const jsonMatch = text.match(/\[[\s\S]*\]/)
-      if (!jsonMatch) throw new Error('Could not parse quiz data from response')
+      if (availableQuestions.length === 0) {
+        throw new Error('No questions available for this topic/difficulty!')
+      }
 
-      const parsed = JSON.parse(jsonMatch[0])
-      if (!Array.isArray(parsed) || parsed.length === 0) throw new Error('Empty quiz data')
+      // Shuffle and select
+      const shuffled = shuffleArray(availableQuestions)
+      const selected = shuffled.slice(0, Math.min(QUESTIONS_PER_QUIZ, shuffled.length))
 
-      setQuestions(parsed)
-      setAnswers(new Array(parsed.length).fill(null))
-      const newCount = incrementGenCount()
-      setGenCount(newCount)
+      // If we need more questions, cycle through again
+      while (selected.length < QUESTIONS_PER_QUIZ) {
+        selected.push(...shuffled.slice(0, QUESTIONS_PER_QUIZ - selected.length))
+      }
+
+      setQuestions(selected)
+      setAnswers(new Array(selected.length).fill(null))
       setScreen('quiz')
     } catch (err) {
       console.error('Quiz generation failed:', err)
       setError(err.message || 'Something went wrong generating the quiz.')
       setScreen('error')
     }
-  }, [topic, difficulty, genCount])
+  }, [topic, difficulty])
 
   const handleAnswer = (isCorrect, selected) => {
     const newAnswers = [...answers]
@@ -450,7 +399,50 @@ Return ONLY the JSON array.`
     if (currentQ < questions.length - 1) {
       setCurrentQ(currentQ + 1)
     } else {
-      setScreen('results')
+      finishQuiz()
+    }
+  }
+
+  const finishQuiz = async () => {
+    const pct = Math.round((score / questions.length) * 100)
+    const updatedProgress = updateProgress(topic, difficulty, score, questions.length)
+
+    // Generate AI personalized message
+    const topicLabel = TOPICS.find(t => t.id === topic)?.label || 'various topics'
+    const prompt = `You are an enthusiastic AI coach for Wylder, a smart 8-year-old who just finished a ${difficulty} trivia quiz on ${topicLabel}.
+
+She got ${score} out of ${questions.length} correct (${pct}%).
+Her best streak was ${bestStreak} in a row.
+She's completed ${updatedProgress.totalQuizzes} total quizzes.
+
+Write a SHORT (2-3 sentences max), personalized, encouraging message for Wylder. Make it:
+- Specific to her performance
+- Encouraging but honest
+- Fun and enthusiastic
+- Suggest what she might try next (harder difficulty, new topic, etc.)
+
+Just the message, no labels or formatting.`
+
+    setScreen('results')
+
+    // Get AI message in background
+    try {
+      const res = await fetch(WORKER_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompt }),
+      })
+
+      if (res.ok) {
+        const data = await res.json()
+        let text = ''
+        if (data.content && Array.isArray(data.content)) {
+          text = data.content.map((c) => c.text || '').join('')
+        }
+        setAiMessage(text.trim())
+      }
+    } catch (err) {
+      console.log('AI message failed, continuing without it:', err)
     }
   }
 
@@ -459,20 +451,8 @@ Return ONLY the JSON array.`
     setQuestions([])
     setCurrentQ(0)
     setAnswers([])
+    setAiMessage('')
   }
-
-  // Settings modal for worker URL
-  const [showSettings, setShowSettings] = useState(false)
-  const [workerInput, setWorkerInput] = useState(
-    localStorage.getItem('trivia_worker_url') || ''
-  )
-
-  const saveWorkerUrl = () => {
-    localStorage.setItem('trivia_worker_url', workerInput)
-    setShowSettings(false)
-  }
-
-  const needsSetup = !WORKER_URL && !localStorage.getItem('trivia_worker_url')
 
   return (
     <>
@@ -485,135 +465,16 @@ Return ONLY the JSON array.`
           <span className="header-icon">🧠</span>
           <h1>Wylder's Infinite Trivia</h1>
           <p>Explore everything. Learn anything.</p>
-          <div className="gen-counter">
-            ⚡ {MAX_WEEKLY_GENS - genCount} quizzes left this week
-          </div>
-        </header>
-
-        {/* Settings gear */}
-        <div
-          style={{
-            position: 'fixed',
-            top: 16,
-            right: 16,
-            zIndex: 100,
-            cursor: 'pointer',
-            fontSize: 24,
-            opacity: 0.5,
-            transition: 'opacity 0.2s',
-          }}
-          onClick={() => setShowSettings(true)}
-          onMouseEnter={(e) => (e.target.style.opacity = 1)}
-          onMouseLeave={(e) => (e.target.style.opacity = 0.5)}
-          title="Settings"
-        >
-          ⚙️
-        </div>
-
-        {/* Settings modal */}
-        {showSettings && (
-          <div
-            style={{
-              position: 'fixed',
-              inset: 0,
-              background: 'rgba(0,0,0,0.7)',
-              zIndex: 200,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              padding: 20,
-            }}
-            onClick={(e) => { if (e.target === e.currentTarget) setShowSettings(false) }}
-          >
-            <div
-              style={{
-                background: 'var(--color-surface)',
-                borderRadius: 'var(--radius)',
-                padding: 28,
-                maxWidth: 420,
-                width: '100%',
-              }}
-            >
-              <h3 style={{ fontFamily: 'var(--font-display)', marginBottom: 16, color: 'var(--color-gold)' }}>
-                ⚙️ Settings
-              </h3>
-              <label style={{ fontSize: 14, color: 'var(--color-text-dim)', display: 'block', marginBottom: 8 }}>
-                Cloudflare Worker URL
-              </label>
-              <input
-                type="url"
-                value={workerInput}
-                onChange={(e) => setWorkerInput(e.target.value)}
-                placeholder="https://trivia-worker.your-name.workers.dev"
-                style={{
-                  width: '100%',
-                  padding: '10px 14px',
-                  borderRadius: 8,
-                  border: '2px solid rgba(255,255,255,0.1)',
-                  background: 'var(--color-bg)',
-                  color: 'var(--color-text)',
-                  fontFamily: 'var(--font-body)',
-                  fontSize: 14,
-                  marginBottom: 16,
-                  outline: 'none',
-                }}
-              />
-              <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end' }}>
-                <button
-                  onClick={() => setShowSettings(false)}
-                  style={{
-                    padding: '8px 20px',
-                    borderRadius: 8,
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    background: 'transparent',
-                    color: 'var(--color-text-dim)',
-                    cursor: 'pointer',
-                    fontFamily: 'var(--font-body)',
-                  }}
-                >
-                  Cancel
-                </button>
-                <button
-                  onClick={saveWorkerUrl}
-                  style={{
-                    padding: '8px 20px',
-                    borderRadius: 8,
-                    border: 'none',
-                    background: 'var(--color-gold)',
-                    color: 'var(--color-bg)',
-                    fontWeight: 600,
-                    cursor: 'pointer',
-                    fontFamily: 'var(--font-body)',
-                  }}
-                >
-                  Save
-                </button>
-              </div>
+          {progress.totalQuizzes > 0 && (
+            <div className="gen-counter">
+              ⭐ {progress.totalQuizzes} quizzes completed!
             </div>
-          </div>
-        )}
+          )}
+        </header>
 
         {/* HOME SCREEN */}
         {screen === 'home' && (
           <>
-            {needsSetup && (
-              <div
-                style={{
-                  background: 'rgba(246,196,69,0.1)',
-                  border: '1px solid rgba(246,196,69,0.3)',
-                  borderRadius: 'var(--radius-sm)',
-                  padding: '14px 18px',
-                  marginBottom: 20,
-                  maxWidth: 600,
-                  width: '100%',
-                  fontSize: 14,
-                  color: 'var(--color-gold)',
-                  textAlign: 'center',
-                }}
-              >
-                👋 First time? Click ⚙️ to add your Cloudflare Worker URL
-              </div>
-            )}
             <TopicPicker selected={topic} onSelect={setTopic} />
             <div className="difficulty-row">
               {DIFFICULTIES.map((d) => (
@@ -629,20 +490,10 @@ Return ONLY the JSON array.`
             <button
               className="generate-btn"
               onClick={generateQuiz}
-              disabled={genCount >= MAX_WEEKLY_GENS}
             >
-              🚀 Generate Quiz
+              🚀 Start Quiz
             </button>
           </>
-        )}
-
-        {/* LOADING */}
-        {screen === 'loading' && (
-          <div className="loading-container">
-            <div className="loading-spinner" />
-            <div className="loading-text">{loadingMsg}</div>
-            <div className="loading-sub">This usually takes 10-15 seconds</div>
-          </div>
         )}
 
         {/* QUIZ */}
@@ -693,6 +544,7 @@ Return ONLY the JSON array.`
             correct={score}
             total={questions.length}
             bestStreak={bestStreak}
+            aiMessage={aiMessage}
             onPlayAgain={goHome}
           />
         )}

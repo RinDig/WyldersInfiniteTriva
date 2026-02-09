@@ -1,0 +1,1297 @@
+{
+  "science": {
+    "easy": [
+      {
+        "type": "multiple_choice",
+        "question": "What gas do plants take in from the air?",
+        "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+        "correct_index": 0,
+        "explanation": "Plants breathe in carbon dioxide and release oxygen through photosynthesis!",
+        "image_query": "plant+leaves+sunlight",
+        "hint": "It's the same gas humans breathe out!"
+      },
+      {
+        "type": "true_false",
+        "question": "Water freezes at 0 degrees Celsius.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "That's right! Water turns to ice at 0°C (32°F).",
+        "image_query": "ice+crystals",
+        "hint": null
+      },
+      {
+        "type": "fill_in",
+        "question": "The largest organ in the human body is the ____.",
+        "answer": "skin",
+        "explanation": "Your skin is actually an organ, and it's the biggest one you have!",
+        "image_query": null,
+        "hint": "It covers your whole body!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the closest star to Earth?",
+        "options": ["The Moon", "The Sun", "Polaris", "Alpha Centauri"],
+        "correct_index": 1,
+        "explanation": "The Sun is our closest star! It's about 93 million miles away.",
+        "image_query": "sun+close+up",
+        "hint": "You see it every day!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do bees collect from flowers?",
+        "options": ["Water", "Nectar", "Seeds", "Leaves"],
+        "correct_index": 1,
+        "explanation": "Bees collect nectar and turn it into delicious honey!",
+        "image_query": "bee+on+flower",
+        "hint": "They use it to make honey!"
+      }
+    ],
+    "medium": [
+      {
+        "type": "multiple_choice",
+        "question": "What type of animal is a penguin?",
+        "options": ["Mammal", "Fish", "Bird", "Amphibian"],
+        "correct_index": 2,
+        "explanation": "Penguins are birds, even though they can't fly! They're amazing swimmers instead.",
+        "image_query": "penguin+swimming",
+        "hint": "They have feathers and lay eggs!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The process where water turns into vapor is called ____.",
+        "answer": "evaporation",
+        "explanation": "Evaporation is when water heats up and becomes water vapor in the air!",
+        "image_query": "water+vapor+steam",
+        "hint": "Think about what happens when water gets hot!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many bones does an adult human have?",
+        "options": ["106", "206", "306", "156"],
+        "correct_index": 1,
+        "explanation": "Adults have 206 bones! Babies actually have more, but some fuse together as we grow.",
+        "image_query": "human+skeleton",
+        "hint": "It's just over 200!"
+      },
+      {
+        "type": "true_false",
+        "question": "Sound travels faster through water than through air.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "Sound travels about 4 times faster in water than in air!",
+        "image_query": "sound+waves+water",
+        "hint": "Think about how dolphins communicate!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the hardest natural substance on Earth?",
+        "options": ["Gold", "Iron", "Diamond", "Ruby"],
+        "correct_index": 2,
+        "explanation": "Diamonds are the hardest natural material - they can cut through almost anything!",
+        "image_query": "diamond+crystal",
+        "hint": "It's a precious gem!"
+      }
+    ],
+    "hard": [
+      {
+        "type": "fill_in",
+        "question": "The powerhouse of the cell is called the ____.",
+        "answer": "mitochondria",
+        "explanation": "Mitochondria convert food into energy that cells can use - that's why they're called the powerhouse!",
+        "image_query": "mitochondria+cell",
+        "hint": "It starts with 'mito'!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the most abundant gas in Earth's atmosphere?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "correct_index": 2,
+        "explanation": "Nitrogen makes up about 78% of Earth's atmosphere!",
+        "image_query": "earth+atmosphere",
+        "hint": "It's not oxygen, even though we need oxygen to breathe!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the pH level of pure water?",
+        "options": ["5", "7", "9", "11"],
+        "correct_index": 1,
+        "explanation": "Pure water has a pH of 7, which is perfectly neutral - not acidic or basic!",
+        "image_query": "ph+scale",
+        "hint": "It's right in the middle!"
+      },
+      {
+        "type": "true_false",
+        "question": "Lightning is hotter than the surface of the Sun.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "Lightning can reach 30,000°C, while the Sun's surface is only about 5,500°C!",
+        "image_query": "lightning+bolt",
+        "hint": "Lightning is incredibly hot!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What element do all organic compounds contain?",
+        "options": ["Oxygen", "Nitrogen", "Carbon", "Hydrogen"],
+        "correct_index": 2,
+        "explanation": "All organic compounds contain carbon - that's what makes them 'organic'!",
+        "image_query": "carbon+atom",
+        "hint": "It's element #6 on the periodic table!"
+      }
+    ],
+    "expert": [
+      {
+        "type": "fill_in",
+        "question": "The study of fungi is called ____.",
+        "answer": "mycology",
+        "explanation": "Mycology is the branch of biology that studies fungi, including mushrooms and molds!",
+        "image_query": "mushrooms+fungi",
+        "hint": "It starts with 'myco'!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the name of the effect where light bends as it passes through different materials?",
+        "options": ["Reflection", "Diffraction", "Refraction", "Dispersion"],
+        "correct_index": 2,
+        "explanation": "Refraction causes light to bend when passing through materials like water or glass!",
+        "image_query": "light+refraction+prism",
+        "hint": "It's why straws look bent in water!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the smallest unit of life that can function independently?",
+        "options": ["Atom", "Molecule", "Cell", "Organ"],
+        "correct_index": 2,
+        "explanation": "Cells are the smallest units of life - all living things are made of one or more cells!",
+        "image_query": "cell+microscope",
+        "hint": "It's what all living things are made of!"
+      },
+      {
+        "type": "true_false",
+        "question": "Graphite and diamond are both made of pure carbon.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "Both are carbon! The difference is how the carbon atoms are arranged.",
+        "image_query": "graphite+diamond+comparison",
+        "hint": "They're the same element arranged differently!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The process by which plants make food using sunlight is called ____.",
+        "answer": "photosynthesis",
+        "explanation": "Photosynthesis uses sunlight, water, and CO2 to make glucose and oxygen!",
+        "image_query": "photosynthesis+diagram",
+        "hint": "Photo means light, synthesis means making something!"
+      }
+    ]
+  },
+  "history": {
+    "easy": [
+      {
+        "type": "multiple_choice",
+        "question": "Who was the first president of the United States?",
+        "options": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+        "correct_index": 1,
+        "explanation": "George Washington was the first U.S. president and is called the 'Father of His Country'!",
+        "image_query": "george+washington+portrait",
+        "hint": "He's on the one dollar bill!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Great Wall of China can be seen from space.",
+        "options": ["True", "False"],
+        "correct_index": 1,
+        "explanation": "This is a myth! The Great Wall is actually too narrow to see from space with the naked eye.",
+        "image_query": "great+wall+of+china",
+        "hint": "It's a common myth!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The ancient Egyptians built large stone structures called ____.",
+        "answer": "pyramids",
+        "explanation": "The pyramids were built as tombs for pharaohs and their families!",
+        "image_query": "egyptian+pyramids+giza",
+        "hint": "They have triangular sides!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What ocean did Christopher Columbus cross in 1492?",
+        "options": ["Pacific Ocean", "Indian Ocean", "Atlantic Ocean", "Arctic Ocean"],
+        "correct_index": 2,
+        "explanation": "Columbus crossed the Atlantic Ocean from Spain to the Americas in 1492.",
+        "image_query": "atlantic+ocean+map",
+        "hint": "It's between Europe and the Americas!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "In what country did the Olympics originate?",
+        "options": ["Italy", "Greece", "Egypt", "Rome"],
+        "correct_index": 1,
+        "explanation": "The Olympics started in ancient Greece over 2,700 years ago!",
+        "image_query": "ancient+greek+olympics",
+        "hint": "Think of ancient civilization!"
+      }
+    ],
+    "medium": [
+      {
+        "type": "fill_in",
+        "question": "The first person to walk on the moon was Neil ____.",
+        "answer": "Armstrong",
+        "explanation": "Neil Armstrong walked on the moon on July 20, 1969, during the Apollo 11 mission!",
+        "image_query": "neil+armstrong+moon",
+        "hint": "His last name is also a word for arm strength!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What year did World War II end?",
+        "options": ["1943", "1944", "1945", "1946"],
+        "correct_index": 2,
+        "explanation": "World War II ended in 1945 when Japan surrendered in September.",
+        "image_query": "world+war+2+end",
+        "hint": "It's in the mid-1940s!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Roman Empire's capital was Athens.",
+        "options": ["True", "False"],
+        "correct_index": 1,
+        "explanation": "Rome was the capital of the Roman Empire! Athens was the capital of ancient Greece.",
+        "image_query": "ancient+rome",
+        "hint": "Think about the empire's name!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who wrote the Declaration of Independence?",
+        "options": ["Benjamin Franklin", "John Adams", "Thomas Jefferson", "George Washington"],
+        "correct_index": 2,
+        "explanation": "Thomas Jefferson was the main author of the Declaration of Independence in 1776!",
+        "image_query": "thomas+jefferson+portrait",
+        "hint": "He was also the 3rd president!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What ancient wonder of the world still stands today?",
+        "options": ["Colossus of Rhodes", "Hanging Gardens", "Great Pyramid of Giza", "Lighthouse of Alexandria"],
+        "correct_index": 2,
+        "explanation": "The Great Pyramid of Giza is the only ancient wonder still standing!",
+        "image_query": "great+pyramid+giza",
+        "hint": "It's in Egypt!"
+      }
+    ],
+    "hard": [
+      {
+        "type": "fill_in",
+        "question": "The Black Death that swept through Europe in the 1300s was caused by ____.",
+        "answer": "plague",
+        "explanation": "The bubonic plague killed millions of people in medieval Europe!",
+        "image_query": "black+death+medieval",
+        "hint": "It's also called the bubonic ____!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who was the emperor of France during the early 1800s?",
+        "options": ["Louis XVI", "Napoleon Bonaparte", "Charles de Gaulle", "Henri IV"],
+        "correct_index": 1,
+        "explanation": "Napoleon Bonaparte crowned himself Emperor of France in 1804!",
+        "image_query": "napoleon+bonaparte",
+        "hint": "His first name starts with 'N'!"
+      },
+      {
+        "type": "true_false",
+        "question": "The printing press was invented in China before it was used in Europe.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "China invented printing centuries before Gutenberg's press in Europe!",
+        "image_query": "ancient+chinese+printing",
+        "hint": "China was ahead in many inventions!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What was the name of the ship that brought the Pilgrims to America?",
+        "options": ["Santa Maria", "Mayflower", "HMS Beagle", "Endeavour"],
+        "correct_index": 1,
+        "explanation": "The Mayflower brought the Pilgrims to Plymouth Rock in 1620!",
+        "image_query": "mayflower+ship",
+        "hint": "It's named after a flower!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which ancient civilization built Machu Picchu?",
+        "options": ["Aztec", "Maya", "Inca", "Olmec"],
+        "correct_index": 2,
+        "explanation": "The Inca Empire built Machu Picchu in Peru around 1450!",
+        "image_query": "machu+picchu",
+        "hint": "They lived in the Andes mountains!"
+      }
+    ],
+    "expert": [
+      {
+        "type": "fill_in",
+        "question": "The ancient Mesopotamian writing system using wedge-shaped marks is called ____.",
+        "answer": "cuneiform",
+        "explanation": "Cuneiform is one of the earliest writing systems, used in ancient Mesopotamia!",
+        "image_query": "cuneiform+tablet",
+        "hint": "It starts with 'cu'!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What treaty ended World War I?",
+        "options": ["Treaty of Paris", "Treaty of Versailles", "Treaty of Vienna", "Treaty of Ghent"],
+        "correct_index": 1,
+        "explanation": "The Treaty of Versailles was signed in 1919 and officially ended WWI.",
+        "image_query": "treaty+of+versailles",
+        "hint": "It's named after a French palace!"
+      },
+      {
+        "type": "true_false",
+        "question": "Cleopatra was Egyptian by birth.",
+        "options": ["True", "False"],
+        "correct_index": 1,
+        "explanation": "Cleopatra was actually Greek! She was descended from Ptolemy, one of Alexander the Great's generals.",
+        "image_query": "cleopatra+egypt",
+        "hint": "Her family came from Greece!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who led the Mongol Empire in the 1200s?",
+        "options": ["Attila the Hun", "Genghis Khan", "Kublai Khan", "Tamerlane"],
+        "correct_index": 1,
+        "explanation": "Genghis Khan united the Mongol tribes and created the largest land empire in history!",
+        "image_query": "genghis+khan",
+        "hint": "His empire was the largest ever!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The Renaissance began in the country of ____.",
+        "answer": "Italy",
+        "explanation": "The Renaissance started in Italy in the 14th century and spread across Europe!",
+        "image_query": "renaissance+italy",
+        "hint": "Think of cities like Florence and Venice!"
+      }
+    ]
+  },
+  "animals": {
+    "easy": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the largest land animal?",
+        "options": ["Giraffe", "Elephant", "Rhinoceros", "Hippopotamus"],
+        "correct_index": 1,
+        "explanation": "African elephants can weigh up to 13,000 pounds!",
+        "image_query": "african+elephant",
+        "hint": "It has a trunk!"
+      },
+      {
+        "type": "true_false",
+        "question": "All birds can fly.",
+        "options": ["True", "False"],
+        "correct_index": 1,
+        "explanation": "Some birds like penguins, ostriches, and emus cannot fly!",
+        "image_query": "ostrich+running",
+        "hint": "Think about penguins!"
+      },
+      {
+        "type": "fill_in",
+        "question": "A baby dog is called a ____.",
+        "answer": "puppy",
+        "explanation": "Puppies are adorable baby dogs!",
+        "image_query": "cute+puppy",
+        "hint": "It's a cute word!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do pandas mainly eat?",
+        "options": ["Fish", "Bamboo", "Berries", "Meat"],
+        "correct_index": 1,
+        "explanation": "Pandas eat bamboo for up to 14 hours a day!",
+        "image_query": "panda+eating+bamboo",
+        "hint": "It's a type of plant!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many legs does a spider have?",
+        "options": ["6", "8", "10", "12"],
+        "correct_index": 1,
+        "explanation": "All spiders have 8 legs - that's what makes them arachnids!",
+        "image_query": "spider+web",
+        "hint": "It's an even number!"
+      }
+    ],
+    "medium": [
+      {
+        "type": "fill_in",
+        "question": "The fastest land animal is the ____.",
+        "answer": "cheetah",
+        "explanation": "Cheetahs can run up to 70 mph in short bursts!",
+        "image_query": "cheetah+running",
+        "hint": "It's a spotted big cat!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is a group of lions called?",
+        "options": ["Pack", "Herd", "Pride", "Flock"],
+        "correct_index": 2,
+        "explanation": "A group of lions is called a pride, usually led by one or two males!",
+        "image_query": "lion+pride",
+        "hint": "It's also a feeling of achievement!"
+      },
+      {
+        "type": "true_false",
+        "question": "Dolphins are fish.",
+        "options": ["True", "False"],
+        "correct_index": 1,
+        "explanation": "Dolphins are mammals! They breathe air and nurse their babies.",
+        "image_query": "dolphin+jumping",
+        "hint": "They breathe air!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the largest species of bear?",
+        "options": ["Grizzly Bear", "Black Bear", "Polar Bear", "Panda Bear"],
+        "correct_index": 2,
+        "explanation": "Polar bears are the largest bears, weighing up to 1,500 pounds!",
+        "image_query": "polar+bear+ice",
+        "hint": "They live in the Arctic!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many hearts does an octopus have?",
+        "options": ["1", "2", "3", "4"],
+        "correct_index": 2,
+        "explanation": "Octopuses have three hearts - two pump blood to the gills, one to the body!",
+        "image_query": "octopus+underwater",
+        "hint": "It's more than humans have!"
+      }
+    ],
+    "hard": [
+      {
+        "type": "fill_in",
+        "question": "The largest animal that has ever lived is the blue ____.",
+        "answer": "whale",
+        "explanation": "Blue whales can be 100 feet long and weigh 200 tons - bigger than any dinosaur!",
+        "image_query": "blue+whale+ocean",
+        "hint": "It lives in the ocean!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What animal has the longest lifespan?",
+        "options": ["Elephant", "Tortoise", "Greenland Shark", "Bowhead Whale"],
+        "correct_index": 2,
+        "explanation": "Greenland sharks can live for over 400 years!",
+        "image_query": "greenland+shark",
+        "hint": "It lives in cold Arctic waters!"
+      },
+      {
+        "type": "true_false",
+        "question": "Sharks have bones.",
+        "options": ["True", "False"],
+        "correct_index": 1,
+        "explanation": "Sharks have skeletons made of cartilage, not bone - like your nose and ears!",
+        "image_query": "shark+swimming",
+        "hint": "Their skeletons are flexible!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the only mammal capable of true flight?",
+        "options": ["Flying Squirrel", "Sugar Glider", "Bat", "Flying Lemur"],
+        "correct_index": 2,
+        "explanation": "Bats are the only mammals that can truly fly! Others just glide.",
+        "image_query": "bat+flying",
+        "hint": "They use echolocation!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many species of bees are there approximately?",
+        "options": ["2,000", "20,000", "200,000", "2,000,000"],
+        "correct_index": 1,
+        "explanation": "There are over 20,000 species of bees worldwide!",
+        "image_query": "different+types+bees",
+        "hint": "It's in the thousands!"
+      }
+    ],
+    "expert": [
+      {
+        "type": "fill_in",
+        "question": "Animals that are active at night are called ____.",
+        "answer": "nocturnal",
+        "explanation": "Nocturnal animals like owls and bats sleep during the day and are active at night!",
+        "image_query": "nocturnal+animals",
+        "hint": "It starts with 'noc'!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the gestation period of an elephant?",
+        "options": ["9 months", "15 months", "22 months", "30 months"],
+        "correct_index": 2,
+        "explanation": "Elephants are pregnant for almost 2 years - the longest of any mammal!",
+        "image_query": "elephant+baby",
+        "hint": "It's almost 2 years!"
+      },
+      {
+        "type": "true_false",
+        "question": "A group of crows is called a murder.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "It's true! A group of crows is called a murder - a spooky name!",
+        "image_query": "crows+group",
+        "hint": "It sounds dark and mysterious!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What animal has the most powerful bite force?",
+        "options": ["Great White Shark", "Saltwater Crocodile", "Hippopotamus", "Orca"],
+        "correct_index": 1,
+        "explanation": "Saltwater crocodiles have a bite force of 3,700 pounds per square inch!",
+        "image_query": "saltwater+crocodile",
+        "hint": "It's a reptile!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The process where animals change their appearance to blend in is called ____.",
+        "answer": "camouflage",
+        "explanation": "Camouflage helps animals hide from predators or sneak up on prey!",
+        "image_query": "animal+camouflage",
+        "hint": "Chameleons are famous for it!"
+      }
+    ]
+  },
+  "space": {
+    "easy": [
+      {
+        "type": "multiple_choice",
+        "question": "What is the name of Earth's natural satellite?",
+        "options": ["Sun", "Moon", "Mars", "Venus"],
+        "correct_index": 1,
+        "explanation": "The Moon orbits Earth and causes our ocean tides!",
+        "image_query": "moon+in+space",
+        "hint": "You can see it at night!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Sun is a star.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "The Sun is our closest star - it just looks bigger because it's so close to us!",
+        "image_query": "sun+star",
+        "hint": "All stars are giant balls of gas!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The planet we live on is called ____.",
+        "answer": "Earth",
+        "explanation": "Earth is the only planet known to support life!",
+        "image_query": "earth+from+space",
+        "hint": "It's our home!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many planets are in our solar system?",
+        "options": ["7", "8", "9", "10"],
+        "correct_index": 1,
+        "explanation": "There are 8 planets since Pluto was reclassified as a dwarf planet in 2006!",
+        "image_query": "solar+system+planets",
+        "hint": "Pluto isn't counted anymore!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What color is Mars often called?",
+        "options": ["Blue Planet", "Red Planet", "Green Planet", "Yellow Planet"],
+        "correct_index": 1,
+        "explanation": "Mars is called the Red Planet because of the iron oxide (rust) on its surface!",
+        "image_query": "mars+red+planet",
+        "hint": "Think of the color of rust!"
+      }
+    ],
+    "medium": [
+      {
+        "type": "fill_in",
+        "question": "The largest planet in our solar system is ____.",
+        "answer": "Jupiter",
+        "explanation": "Jupiter is so big that all the other planets could fit inside it!",
+        "image_query": "jupiter+planet",
+        "hint": "It has a giant red spot!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What galaxy do we live in?",
+        "options": ["Andromeda", "Milky Way", "Triangulum", "Whirlpool"],
+        "correct_index": 1,
+        "explanation": "We live in the Milky Way galaxy, which has billions of stars!",
+        "image_query": "milky+way+galaxy",
+        "hint": "It's named after a candy bar!"
+      },
+      {
+        "type": "true_false",
+        "question": "There is no sound in space.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "Space is a vacuum with no air, so sound waves can't travel!",
+        "image_query": "space+vacuum",
+        "hint": "Sound needs air to travel!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the hottest planet in our solar system?",
+        "options": ["Mercury", "Venus", "Mars", "Jupiter"],
+        "correct_index": 1,
+        "explanation": "Venus is hotter than Mercury because its thick atmosphere traps heat!",
+        "image_query": "venus+planet",
+        "hint": "It's not the closest to the Sun!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How long does it take Earth to orbit the Sun?",
+        "options": ["24 hours", "30 days", "365 days", "10 years"],
+        "correct_index": 2,
+        "explanation": "Earth takes 365 days (one year) to complete one orbit around the Sun!",
+        "image_query": "earth+orbit+sun",
+        "hint": "It's how we measure a year!"
+      }
+    ],
+    "hard": [
+      {
+        "type": "fill_in",
+        "question": "A dying star that has collapsed is called a ____ hole.",
+        "answer": "black",
+        "explanation": "Black holes have gravity so strong that not even light can escape!",
+        "image_query": "black+hole+space",
+        "hint": "Nothing can escape it, not even light!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What planet has the most moons?",
+        "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+        "correct_index": 1,
+        "explanation": "Saturn has over 140 known moons!",
+        "image_query": "saturn+moons",
+        "hint": "It's the planet with rings!"
+      },
+      {
+        "type": "true_false",
+        "question": "Light from the Sun takes about 8 minutes to reach Earth.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "Light travels at 186,000 miles per second and takes about 8 minutes to reach us!",
+        "image_query": "sunlight+reaching+earth",
+        "hint": "Light is super fast but space is huge!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the name of the closest star system to our solar system?",
+        "options": ["Sirius", "Alpha Centauri", "Betelgeuse", "Proxima"],
+        "correct_index": 1,
+        "explanation": "Alpha Centauri is about 4.37 light-years away - our closest stellar neighbor!",
+        "image_query": "alpha+centauri",
+        "hint": "It starts with 'Alpha'!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the Great Red Spot on Jupiter?",
+        "options": ["A volcano", "A giant storm", "An ocean", "A crater"],
+        "correct_index": 1,
+        "explanation": "The Great Red Spot is a massive storm that's been raging for hundreds of years!",
+        "image_query": "jupiter+great+red+spot",
+        "hint": "It's been there for centuries!"
+      }
+    ],
+    "expert": [
+      {
+        "type": "fill_in",
+        "question": "The explosion of a massive star is called a ____.",
+        "answer": "supernova",
+        "explanation": "Supernovas are the most powerful explosions in the universe!",
+        "image_query": "supernova+explosion",
+        "hint": "It starts with 'super'!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the boundary around a black hole called?",
+        "options": ["Event Horizon", "Singularity", "Photon Sphere", "Accretion Disk"],
+        "correct_index": 0,
+        "explanation": "The event horizon is the point of no return - once you cross it, you can't escape!",
+        "image_query": "black+hole+event+horizon",
+        "hint": "It's the point of no return!"
+      },
+      {
+        "type": "true_false",
+        "question": "Neutron stars can spin hundreds of times per second.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "Some neutron stars (pulsars) spin over 700 times per second!",
+        "image_query": "neutron+star+pulsar",
+        "hint": "They're incredibly dense and fast!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What percentage of the universe is dark matter?",
+        "options": ["5%", "27%", "68%", "95%"],
+        "correct_index": 1,
+        "explanation": "About 27% of the universe is dark matter - we can't see it but we know it's there!",
+        "image_query": "dark+matter+universe",
+        "hint": "It's more than a quarter!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The theoretical point in time when the universe began is called the Big ____.",
+        "answer": "Bang",
+        "explanation": "The Big Bang happened about 13.8 billion years ago!",
+        "image_query": "big+bang+theory",
+        "hint": "It's an explosive word!"
+      }
+    ]
+  },
+  "books": {
+    "easy": [
+      {
+        "type": "multiple_choice",
+        "question": "Who wrote 'The Cat in the Hat'?",
+        "options": ["Roald Dahl", "Dr. Seuss", "Eric Carle", "Maurice Sendak"],
+        "correct_index": 1,
+        "explanation": "Dr. Seuss wrote many beloved children's books with fun rhymes!",
+        "image_query": "cat+in+the+hat",
+        "hint": "He wrote lots of rhyming books!"
+      },
+      {
+        "type": "true_false",
+        "question": "Harry Potter has a lightning bolt scar.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "Harry's lightning bolt scar is on his forehead from when Voldemort attacked him as a baby!",
+        "image_query": "harry+potter+scar",
+        "hint": "It's his most famous feature!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The Greek god of the sea is ____.",
+        "answer": "Poseidon",
+        "explanation": "Poseidon ruled the seas and carried a trident!",
+        "image_query": "poseidon+greek+god",
+        "hint": "He has a trident!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What animal is Winnie the Pooh?",
+        "options": ["Bear", "Rabbit", "Tiger", "Pig"],
+        "correct_index": 0,
+        "explanation": "Winnie the Pooh is a friendly bear who loves honey!",
+        "image_query": "winnie+the+pooh",
+        "hint": "He loves honey!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "In fairy tales, what turns into a carriage for Cinderella?",
+        "options": ["Apple", "Pumpkin", "Watermelon", "Shoe"],
+        "correct_index": 1,
+        "explanation": "The fairy godmother turned a pumpkin into Cinderella's carriage!",
+        "image_query": "cinderella+pumpkin+carriage",
+        "hint": "It's a big orange vegetable!"
+      }
+    ],
+    "medium": [
+      {
+        "type": "fill_in",
+        "question": "In Greek mythology, the king of the gods is ____.",
+        "answer": "Zeus",
+        "explanation": "Zeus ruled Mount Olympus and controlled thunder and lightning!",
+        "image_query": "zeus+greek+god",
+        "hint": "He throws lightning bolts!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who wrote 'Charlie and the Chocolate Factory'?",
+        "options": ["J.K. Rowling", "Roald Dahl", "C.S. Lewis", "Lewis Carroll"],
+        "correct_index": 1,
+        "explanation": "Roald Dahl wrote many imaginative children's books!",
+        "image_query": "charlie+chocolate+factory",
+        "hint": "He also wrote 'Matilda'!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Norse god Thor had a magic hammer called Mjolnir.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "Mjolnir was Thor's powerful hammer that always returned to him when thrown!",
+        "image_query": "thor+mjolnir+hammer",
+        "hint": "Only Thor could lift it!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What school does Harry Potter attend?",
+        "options": ["Beauxbatons", "Durmstrang", "Hogwarts", "Ilvermorny"],
+        "correct_index": 2,
+        "explanation": "Hogwarts School of Witchcraft and Wizardry is where Harry learns magic!",
+        "image_query": "hogwarts+castle",
+        "hint": "It's a castle in Scotland!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "In 'The Lion, the Witch and the Wardrobe', what land do the children discover?",
+        "options": ["Wonderland", "Neverland", "Narnia", "Oz"],
+        "correct_index": 2,
+        "explanation": "Narnia is a magical land reached through a wardrobe!",
+        "image_query": "narnia+wardrobe",
+        "hint": "They find it through a wardrobe!"
+      }
+    ],
+    "hard": [
+      {
+        "type": "fill_in",
+        "question": "The Greek hero who fought the Minotaur was ____.",
+        "answer": "Theseus",
+        "explanation": "Theseus navigated the labyrinth and defeated the half-bull, half-man Minotaur!",
+        "image_query": "theseus+minotaur",
+        "hint": "He used a ball of thread to find his way!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who wrote 'The Hobbit'?",
+        "options": ["J.K. Rowling", "C.S. Lewis", "J.R.R. Tolkien", "George R.R. Martin"],
+        "correct_index": 2,
+        "explanation": "J.R.R. Tolkien created Middle-earth and wrote 'The Hobbit' and 'The Lord of the Rings'!",
+        "image_query": "the+hobbit+book",
+        "hint": "He also wrote 'Lord of the Rings'!"
+      },
+      {
+        "type": "true_false",
+        "question": "In Norse mythology, Loki is Thor's brother.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "Loki is the trickster god and Thor's adopted brother (in some versions)!",
+        "image_query": "loki+norse+god",
+        "hint": "He's the god of mischief!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What creature guards the entrance to Gringotts Bank in Harry Potter?",
+        "options": ["Dragon", "Phoenix", "Hippogriff", "Basilisk"],
+        "correct_index": 0,
+        "explanation": "A Ukrainian Ironbelly dragon guards the deepest vaults at Gringotts!",
+        "image_query": "gringotts+dragon",
+        "hint": "It breathes fire!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who is the Roman equivalent of the Greek god Zeus?",
+        "options": ["Mars", "Jupiter", "Neptune", "Mercury"],
+        "correct_index": 1,
+        "explanation": "Jupiter was the king of the Roman gods, just like Zeus in Greek mythology!",
+        "image_query": "jupiter+roman+god",
+        "hint": "It's also the name of a planet!"
+      }
+    ],
+    "expert": [
+      {
+        "type": "fill_in",
+        "question": "The Egyptian god of the dead is ____.",
+        "answer": "Anubis",
+        "explanation": "Anubis had the head of a jackal and guided souls to the afterlife!",
+        "image_query": "anubis+egyptian+god",
+        "hint": "He has a jackal head!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "In Greek mythology, who flew too close to the sun?",
+        "options": ["Daedalus", "Icarus", "Perseus", "Orpheus"],
+        "correct_index": 1,
+        "explanation": "Icarus' wax wings melted when he flew too close to the sun!",
+        "image_query": "icarus+flying+sun",
+        "hint": "His wings were made of wax and feathers!"
+      },
+      {
+        "type": "true_false",
+        "question": "In mythology, the phoenix is reborn from its own ashes.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "The phoenix is a legendary bird that burns and is reborn from the ashes!",
+        "image_query": "phoenix+bird+fire",
+        "hint": "It's a symbol of rebirth!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who is the Norse god of thunder?",
+        "options": ["Odin", "Loki", "Thor", "Freya"],
+        "correct_index": 2,
+        "explanation": "Thor is the mighty god of thunder, wielding his hammer Mjolnir!",
+        "image_query": "thor+norse+mythology",
+        "hint": "He's also a Marvel superhero!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The ancient Greek epic poem about Odysseus' journey home is called The ____.",
+        "answer": "Odyssey",
+        "explanation": "The Odyssey tells of Odysseus' 10-year journey home after the Trojan War!",
+        "image_query": "odyssey+homer",
+        "hint": "It's named after the hero!"
+      }
+    ]
+  },
+  "math": {
+    "easy": [
+      {
+        "type": "multiple_choice",
+        "question": "What is 5 + 7?",
+        "options": ["10", "11", "12", "13"],
+        "correct_index": 2,
+        "explanation": "5 + 7 = 12! Great job!",
+        "image_query": null,
+        "hint": "Count on your fingers!"
+      },
+      {
+        "type": "true_false",
+        "question": "A triangle has 3 sides.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "That's right! Triangles always have exactly 3 sides and 3 corners!",
+        "image_query": "triangle+shape",
+        "hint": "Think about the prefix 'tri'!"
+      },
+      {
+        "type": "fill_in",
+        "question": "What is 10 - 4? ____",
+        "answer": "6",
+        "explanation": "10 - 4 = 6! Perfect!",
+        "image_query": null,
+        "hint": "Take away 4 from 10!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many sides does a square have?",
+        "options": ["3", "4", "5", "6"],
+        "correct_index": 1,
+        "explanation": "A square has 4 equal sides!",
+        "image_query": "square+shape",
+        "hint": "All the sides are the same length!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is half of 10?",
+        "options": ["3", "4", "5", "6"],
+        "correct_index": 2,
+        "explanation": "Half of 10 is 5 - if you split 10 into two equal parts!",
+        "image_query": null,
+        "hint": "Split it into two equal groups!"
+      }
+    ],
+    "medium": [
+      {
+        "type": "fill_in",
+        "question": "What is 8 × 7? ____",
+        "answer": "56",
+        "explanation": "8 × 7 = 56! That's a tricky one!",
+        "image_query": null,
+        "hint": "Think of your times tables!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the value of π (pi) rounded to two decimal places?",
+        "options": ["3.12", "3.14", "3.16", "3.18"],
+        "correct_index": 1,
+        "explanation": "Pi (π) is approximately 3.14 and helps us calculate circles!",
+        "image_query": "pi+circle",
+        "hint": "It starts with 3.1..."
+      },
+      {
+        "type": "true_false",
+        "question": "A pentagon has 5 sides.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "Correct! A pentagon has 5 sides and 5 corners!",
+        "image_query": "pentagon+shape",
+        "hint": "Penta means five!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is 100 divided by 4?",
+        "options": ["20", "25", "30", "35"],
+        "correct_index": 1,
+        "explanation": "100 ÷ 4 = 25!",
+        "image_query": null,
+        "hint": "How many quarters are in a dollar?"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is 15% of 100?",
+        "options": ["5", "10", "15", "20"],
+        "correct_index": 2,
+        "explanation": "15% of 100 is 15! Percent means 'out of 100'!",
+        "image_query": null,
+        "hint": "Percent means out of 100!"
+      }
+    ],
+    "hard": [
+      {
+        "type": "fill_in",
+        "question": "What is the square root of 144? ____",
+        "answer": "12",
+        "explanation": "12 × 12 = 144, so the square root of 144 is 12!",
+        "image_query": null,
+        "hint": "What number times itself equals 144?"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is 7³ (7 to the power of 3)?",
+        "options": ["21", "49", "343", "2401"],
+        "correct_index": 2,
+        "explanation": "7³ means 7 × 7 × 7 = 343!",
+        "image_query": null,
+        "hint": "Multiply 7 by itself three times!"
+      },
+      {
+        "type": "true_false",
+        "question": "A prime number can only be divided by 1 and itself.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "That's right! Prime numbers like 2, 3, 5, 7, 11 have exactly two factors!",
+        "image_query": "prime+numbers",
+        "hint": "Think of numbers like 2, 3, 5, 7..."
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the sum of angles in a triangle?",
+        "options": ["90 degrees", "180 degrees", "270 degrees", "360 degrees"],
+        "correct_index": 1,
+        "explanation": "All triangles have angles that add up to 180 degrees!",
+        "image_query": "triangle+angles",
+        "hint": "It's less than a full circle!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "If a train travels 60 miles per hour for 2.5 hours, how far does it go?",
+        "options": ["120 miles", "150 miles", "180 miles", "200 miles"],
+        "correct_index": 1,
+        "explanation": "60 × 2.5 = 150 miles!",
+        "image_query": null,
+        "hint": "Multiply speed by time!"
+      }
+    ],
+    "expert": [
+      {
+        "type": "fill_in",
+        "question": "What is 0! (zero factorial)? ____",
+        "answer": "1",
+        "explanation": "By mathematical convention, 0! = 1. It's a special case!",
+        "image_query": null,
+        "hint": "It's a special rule in math!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the Fibonacci number after 0, 1, 1, 2, 3, 5, 8?",
+        "options": ["11", "12", "13", "14"],
+        "correct_index": 2,
+        "explanation": "The Fibonacci sequence adds the two previous numbers: 5 + 8 = 13!",
+        "image_query": "fibonacci+spiral",
+        "hint": "Add the last two numbers together!"
+      },
+      {
+        "type": "true_false",
+        "question": "The number 1 is considered a prime number.",
+        "options": ["True", "False"],
+        "correct_index": 1,
+        "explanation": "1 is NOT prime because prime numbers must have exactly two factors, and 1 only has one!",
+        "image_query": "prime+numbers+chart",
+        "hint": "It's a trick question!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the value of sin(30°)?",
+        "options": ["0.5", "0.707", "0.866", "1"],
+        "correct_index": 0,
+        "explanation": "sin(30°) = 0.5, which is the same as 1/2!",
+        "image_query": "sine+wave",
+        "hint": "It's a simple fraction!"
+      },
+      {
+        "type": "fill_in",
+        "question": "A polygon with 8 sides is called an ____.",
+        "answer": "octagon",
+        "explanation": "Octagon comes from Greek: 'octo' means eight!",
+        "image_query": "octagon+shape",
+        "hint": "Think 'octo' like octopus with 8 legs!"
+      }
+    ]
+  },
+  "random": {
+    "easy": [
+      {
+        "type": "multiple_choice",
+        "question": "What color is a ruby?",
+        "options": ["Blue", "Green", "Red", "Yellow"],
+        "correct_index": 2,
+        "explanation": "Rubies are beautiful red gemstones!",
+        "image_query": "ruby+gemstone",
+        "hint": "Think of the color of a rose!"
+      },
+      {
+        "type": "true_false",
+        "question": "A rainbow has 7 colors.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "Rainbows have 7 colors: red, orange, yellow, green, blue, indigo, and violet!",
+        "image_query": "rainbow+colors",
+        "hint": "ROY G BIV helps you remember!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The capital of France is ____.",
+        "answer": "Paris",
+        "explanation": "Paris is famous for the Eiffel Tower!",
+        "image_query": "paris+eiffel+tower",
+        "hint": "It's where the Eiffel Tower is!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many continents are there?",
+        "options": ["5", "6", "7", "8"],
+        "correct_index": 2,
+        "explanation": "There are 7 continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America!",
+        "image_query": "world+continents+map",
+        "hint": "It's the same as days in a week!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What season comes after summer?",
+        "options": ["Spring", "Fall", "Winter", "Monsoon"],
+        "correct_index": 1,
+        "explanation": "Fall (or autumn) comes after summer!",
+        "image_query": "autumn+leaves",
+        "hint": "Leaves fall from trees!"
+      }
+    ],
+    "medium": [
+      {
+        "type": "fill_in",
+        "question": "The tallest mountain in the world is Mount ____.",
+        "answer": "Everest",
+        "explanation": "Mount Everest is 29,032 feet tall!",
+        "image_query": "mount+everest",
+        "hint": "It's in the Himalayas!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+        "correct_index": 3,
+        "explanation": "The Pacific Ocean covers about 30% of Earth's surface!",
+        "image_query": "pacific+ocean",
+        "hint": "Its name means 'peaceful'!"
+      },
+      {
+        "type": "true_false",
+        "question": "Tomatoes are vegetables.",
+        "options": ["True", "False"],
+        "correct_index": 1,
+        "explanation": "Botanically, tomatoes are fruits because they have seeds!",
+        "image_query": "tomato+plant",
+        "hint": "They have seeds inside!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What instrument has 88 keys?",
+        "options": ["Guitar", "Violin", "Piano", "Flute"],
+        "correct_index": 2,
+        "explanation": "A standard piano has 88 keys - 52 white and 36 black!",
+        "image_query": "piano+keys",
+        "hint": "It's black and white!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many players are on a soccer team (on the field)?",
+        "options": ["9", "10", "11", "12"],
+        "correct_index": 2,
+        "explanation": "Each soccer team has 11 players on the field at a time!",
+        "image_query": "soccer+team",
+        "hint": "It's more than 10!"
+      }
+    ],
+    "hard": [
+      {
+        "type": "fill_in",
+        "question": "The longest river in the world is the ____ River.",
+        "answer": "Nile",
+        "explanation": "The Nile River in Africa is about 4,135 miles long!",
+        "image_query": "nile+river",
+        "hint": "It flows through Egypt!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the smallest country in the world?",
+        "options": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+        "correct_index": 1,
+        "explanation": "Vatican City is only 0.17 square miles!",
+        "image_query": "vatican+city",
+        "hint": "It's where the Pope lives!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Grand Canyon is in Arizona.",
+        "options": ["True", "False"],
+        "correct_index": 0,
+        "explanation": "The Grand Canyon is in northern Arizona and is over 277 miles long!",
+        "image_query": "grand+canyon+arizona",
+        "hint": "It's in the southwestern United States!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What language has the most native speakers?",
+        "options": ["English", "Spanish", "Mandarin Chinese", "Hindi"],
+        "correct_index": 2,
+        "explanation": "Mandarin Chinese has over 900 million native speakers!",
+        "image_query": "mandarin+chinese+characters",
+        "hint": "It's spoken in China!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many time zones does Russia have?",
+        "options": ["6", "9", "11", "13"],
+        "correct_index": 2,
+        "explanation": "Russia spans 11 time zones because it's so vast!",
+        "image_query": "russia+map",
+        "hint": "Russia is huge!"
+      }
+    ],
+    "expert": [
+      {
+        "type": "fill_in",
+        "question": "The deepest point in the ocean is the ____ Trench.",
+        "answer": "Mariana",
+        "explanation": "The Mariana Trench is almost 7 miles deep!",
+        "image_query": "mariana+trench",
+        "hint": "It's in the Pacific Ocean!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Go", "Gd", "Au", "Ag"],
+        "correct_index": 2,
+        "explanation": "Au comes from the Latin word 'aurum' meaning gold!",
+        "image_query": "gold+periodic+table",
+        "hint": "Think of the Latin word!"
+      },
+      {
+        "type": "true_false",
+        "question": "Bananas grow on trees.",
+        "options": ["True", "False"],
+        "correct_index": 1,
+        "explanation": "Bananas grow on large herbaceous plants, not trees!",
+        "image_query": "banana+plant",
+        "hint": "They're actually giant herbs!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the speed of light in a vacuum?",
+        "options": ["186,000 miles/second", "93,000 miles/second", "300,000 miles/second", "500,000 miles/second"],
+        "correct_index": 0,
+        "explanation": "Light travels at 186,000 miles per second (or 300,000 km/s)!",
+        "image_query": "speed+of+light",
+        "hint": "It's incredibly fast!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The study of earthquakes is called ____.",
+        "answer": "seismology",
+        "explanation": "Seismology uses seismographs to measure earthquake waves!",
+        "image_query": "seismograph+earthquake",
+        "hint": "It starts with 'seismo'!"
+      }
+    ]
+  }
+}
