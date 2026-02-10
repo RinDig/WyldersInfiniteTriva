@@ -476,7 +476,7 @@ Write a SHORT (2-3 sentences max), personalized, encouraging message for Wylder.
 - Specific to her performance
 - Encouraging but honest
 - Fun and enthusiastic
-- Suggest what she might try next (harder difficulty, new topic, etc.)
+- Suggest what she might try next (harder difficulty, new topic, etc.) Perhaps suggest a question to ask her parents ( Jake and Cheyenne)
 
 Just the message, no labels or formatting.`
 

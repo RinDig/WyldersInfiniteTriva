@@ -4,7 +4,12 @@
       {
         "type": "multiple_choice",
         "question": "What gas do plants take in from the air?",
-        "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+        "options": [
+          "Carbon dioxide",
+          "Oxygen",
+          "Nitrogen",
+          "Hydrogen"
+        ],
         "correct_index": 0,
         "explanation": "Plants breathe in carbon dioxide and release oxygen through photosynthesis!",
         "image_query": "plant+leaves+sunlight",
@@ -13,9 +18,12 @@
       {
         "type": "true_false",
         "question": "Water freezes at 0 degrees Celsius.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
-        "explanation": "That's right! Water turns to ice at 0°C (32°F).",
+        "explanation": "That's right! Water turns to ice at 0\u00c2\u00b0C (32\u00c2\u00b0F).",
         "image_query": "ice+crystals",
         "hint": null
       },
@@ -30,7 +38,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the closest star to Earth?",
-        "options": ["The Moon", "The Sun", "Polaris", "Alpha Centauri"],
+        "options": [
+          "The Moon",
+          "The Sun",
+          "Polaris",
+          "Alpha Centauri"
+        ],
         "correct_index": 1,
         "explanation": "The Sun is our closest star! It's about 93 million miles away.",
         "image_query": "sun+close+up",
@@ -39,18 +52,446 @@
       {
         "type": "multiple_choice",
         "question": "What do bees collect from flowers?",
-        "options": ["Water", "Nectar", "Seeds", "Leaves"],
+        "options": [
+          "Water",
+          "Nectar",
+          "Seeds",
+          "Leaves"
+        ],
         "correct_index": 1,
         "explanation": "Bees collect nectar and turn it into delicious honey!",
         "image_query": "bee+on+flower",
         "hint": "They use it to make honey!"
+      },
+      {
+        "type": "true_false",
+        "question": "The human heart has four chambers.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "The heart has four chambers: two atria and two ventricles that pump blood through your body!",
+        "image_query": "human+heart+diagram",
+        "hint": "Think about the number of rooms in your heart!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do caterpillars turn into?",
+        "options": [
+          "Bees",
+          "Butterflies",
+          "Dragonflies",
+          "Beetles"
+        ],
+        "correct_index": 1,
+        "explanation": "Caterpillars transform into beautiful butterflies through metamorphosis!",
+        "image_query": "butterfly+metamorphosis",
+        "hint": "They grow colorful wings!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The center of the Earth is called the ____.",
+        "answer": "core",
+        "explanation": "Earth's core is super hot and made mostly of iron and nickel!",
+        "image_query": "earth+core+layers",
+        "hint": "It's like the center of an apple!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do plants need to make food?",
+        "options": [
+          "Sunlight, water, and soil",
+          "Sunlight, water, and carbon dioxide",
+          "Water and soil only",
+          "Sunlight only"
+        ],
+        "correct_index": 1,
+        "explanation": "Plants use sunlight, water, and carbon dioxide to make their own food through photosynthesis!",
+        "image_query": "plant+photosynthesis",
+        "hint": "They need air, water, and light!"
+      },
+      {
+        "type": "true_false",
+        "question": "All metals are magnetic.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Only some metals like iron, nickel, and cobalt are magnetic. Gold and aluminum are not!",
+        "image_query": "magnetic+metals",
+        "hint": "Think about aluminum foil!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the main gas in the air we breathe?",
+        "options": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Nitrogen",
+          "Helium"
+        ],
+        "correct_index": 2,
+        "explanation": "Air is about 78% nitrogen! Oxygen is only about 21%.",
+        "image_query": "atmosphere+composition",
+        "hint": "It's not the one we need to breathe!"
+      },
+      {
+        "type": "fill_in",
+        "question": "A baby frog is called a ____.",
+        "answer": "tadpole",
+        "explanation": "Tadpoles live in water and eventually grow legs and turn into frogs!",
+        "image_query": "tadpole+frog",
+        "hint": "It looks like a tiny fish with a tail!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What makes leaves green?",
+        "options": [
+          "Water",
+          "Sunlight",
+          "Chlorophyll",
+          "Soil"
+        ],
+        "correct_index": 2,
+        "explanation": "Chlorophyll is the green pigment in leaves that helps plants make food!",
+        "image_query": "green+leaves+chlorophyll",
+        "hint": "It's a special chemical in the leaves!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Moon makes its own light.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "The Moon doesn't make light - it reflects light from the Sun!",
+        "image_query": "moon+reflecting+sunlight",
+        "hint": "It acts like a mirror!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the boiling point of water?",
+        "options": [
+          "50\u00b0C",
+          "75\u00b0C",
+          "100\u00b0C",
+          "150\u00b0C"
+        ],
+        "correct_index": 2,
+        "explanation": "Water boils at 100\u00b0C (212\u00b0F) at sea level!",
+        "image_query": "boiling+water",
+        "hint": "It's a nice round number!"
+      },
+      {
+        "type": "fill_in",
+        "question": "Animals without backbones are called ____.",
+        "answer": "invertebrates",
+        "explanation": "Invertebrates include insects, worms, jellyfish, and many others - most animals are invertebrates!",
+        "image_query": "invertebrates+animals",
+        "hint": "It starts with 'in' meaning without!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which of these is NOT a state of matter?",
+        "options": [
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Weight"
+        ],
+        "correct_index": 3,
+        "explanation": "The three main states of matter are solid, liquid, and gas. Weight is a measurement!",
+        "image_query": "states+of+matter",
+        "hint": "Three of these describe how matter looks!"
+      },
+      {
+        "type": "true_false",
+        "question": "Humans have five senses.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "We have five main senses: sight, hearing, smell, taste, and touch!",
+        "image_query": "five+senses",
+        "hint": "Count them on your hand!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do we call animals that eat only plants?",
+        "options": [
+          "Carnivores",
+          "Herbivores",
+          "Omnivores",
+          "Insectivores"
+        ],
+        "correct_index": 1,
+        "explanation": "Herbivores eat only plants. Examples include deer, rabbits, and elephants!",
+        "image_query": "herbivore+animals",
+        "hint": "Think of 'herb' in the name!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The force that pulls objects toward Earth is called ____.",
+        "answer": "gravity",
+        "explanation": "Gravity keeps us on the ground and makes things fall down!",
+        "image_query": "gravity+earth",
+        "hint": "It's why things fall down!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many legs does an insect have?",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "10"
+        ],
+        "correct_index": 1,
+        "explanation": "All insects have exactly 6 legs - that's one way to identify them!",
+        "image_query": "insect+legs",
+        "hint": "It's more than a spider minus two!"
+      },
+      {
+        "type": "true_false",
+        "question": "Sound can travel through space.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Sound needs air or another material to travel through. Space is a vacuum with no air!",
+        "image_query": "space+vacuum",
+        "hint": "There's no air in space!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do you call a scientist who studies rocks?",
+        "options": [
+          "Biologist",
+          "Geologist",
+          "Chemist",
+          "Astronomer"
+        ],
+        "correct_index": 1,
+        "explanation": "Geologists study rocks, minerals, and the Earth's structure!",
+        "image_query": "geologist+rocks",
+        "hint": "Geo means Earth!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The liquid inside your mouth that helps you digest food is called ____.",
+        "answer": "saliva",
+        "explanation": "Saliva helps break down food and makes it easier to swallow!",
+        "image_query": null,
+        "hint": "It's also called spit!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which is the fastest growing plant?",
+        "options": [
+          "Oak tree",
+          "Rose",
+          "Bamboo",
+          "Sunflower"
+        ],
+        "correct_index": 2,
+        "explanation": "Bamboo can grow up to 3 feet in just one day!",
+        "image_query": "bamboo+growing",
+        "hint": "Pandas love to eat it!"
+      },
+      {
+        "type": "true_false",
+        "question": "Fish can breathe underwater using gills.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Gills allow fish to extract oxygen from water so they can breathe underwater!",
+        "image_query": "fish+gills",
+        "hint": "They don't have lungs like we do!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the colored part of your eye called?",
+        "options": [
+          "Pupil",
+          "Iris",
+          "Retina",
+          "Cornea"
+        ],
+        "correct_index": 1,
+        "explanation": "The iris is the colored part of your eye - it can be blue, brown, green, or other colors!",
+        "image_query": "human+eye+iris",
+        "hint": "It's also the name of a flower!"
+      },
+      {
+        "type": "fill_in",
+        "question": "When water turns to ice, it becomes a ____.",
+        "answer": "solid",
+        "explanation": "Ice is the solid form of water. Water can be solid, liquid, or gas (steam)!",
+        "image_query": "ice+solid",
+        "hint": "It's hard and you can hold it!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do bees use to make honey?",
+        "options": [
+          "Tree sap",
+          "Flower nectar",
+          "Water",
+          "Pollen"
+        ],
+        "correct_index": 1,
+        "explanation": "Bees collect nectar from flowers and turn it into delicious honey in their hive!",
+        "image_query": "bee+collecting+nectar",
+        "hint": "It's the sweet liquid in flowers!"
+      },
+      {
+        "type": "true_false",
+        "question": "Your funny bone is actually a bone.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "The 'funny bone' is actually a nerve in your elbow called the ulnar nerve!",
+        "image_query": "elbow+ulnar+nerve",
+        "hint": "It's a nerve that gets bumped!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What season do flowers usually bloom?",
+        "options": [
+          "Winter",
+          "Spring",
+          "Summer",
+          "Fall"
+        ],
+        "correct_index": 1,
+        "explanation": "Spring is when most flowers bloom because of warmer weather and rain!",
+        "image_query": "spring+flowers+blooming",
+        "hint": "It comes after winter!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The gas that makes soda fizzy is ____ dioxide.",
+        "answer": "carbon",
+        "explanation": "Carbon dioxide gas creates the bubbles and fizz in soda!",
+        "image_query": "carbonated+soda+bubbles",
+        "hint": "It's the same gas plants breathe in!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the largest organ inside the human body?",
+        "options": [
+          "Heart",
+          "Liver",
+          "Brain",
+          "Lungs"
+        ],
+        "correct_index": 1,
+        "explanation": "The liver is the largest internal organ and helps clean your blood!",
+        "image_query": "human+liver",
+        "hint": "It helps clean your body!"
+      },
+      {
+        "type": "true_false",
+        "question": "Earthworms have eyes.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Earthworms don't have eyes, but they can sense light through their skin!",
+        "image_query": "earthworm",
+        "hint": "They live underground in the dark!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What makes thunder happen?",
+        "options": [
+          "Clouds bumping together",
+          "Rain falling",
+          "Lightning heating the air",
+          "Wind blowing"
+        ],
+        "correct_index": 2,
+        "explanation": "Lightning heats the air so quickly it expands and creates the boom we hear as thunder!",
+        "image_query": "lightning+thunder+storm",
+        "hint": "It comes after you see lightning!"
+      },
+      {
+        "type": "fill_in",
+        "question": "A scientist who studies animals is called a ____.",
+        "answer": "zoologist",
+        "explanation": "Zoologists study all kinds of animals and their behavior!",
+        "image_query": "zoologist+animals",
+        "hint": "Zoo is part of the word!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What gives flamingos their pink color?",
+        "options": [
+          "Their feathers naturally grow pink",
+          "The food they eat",
+          "The water they swim in",
+          "The sun"
+        ],
+        "correct_index": 1,
+        "explanation": "Flamingos get their pink color from the shrimp and algae they eat!",
+        "image_query": "pink+flamingos",
+        "hint": "You are what you eat!"
+      },
+      {
+        "type": "true_false",
+        "question": "All snowflakes look exactly the same.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Every snowflake has a unique pattern, though they all have six sides!",
+        "image_query": "snowflake+patterns",
+        "hint": "Each one is special!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do tadpoles breathe with?",
+        "options": [
+          "Lungs",
+          "Gills",
+          "Skin",
+          "They don't breathe"
+        ],
+        "correct_index": 1,
+        "explanation": "Tadpoles have gills like fish, but they grow lungs as they become frogs!",
+        "image_query": "tadpole+gills",
+        "hint": "They live underwater at first!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The path Earth takes around the Sun is called an ____.",
+        "answer": "orbit",
+        "explanation": "Earth orbits the Sun once every 365 days - that's one year!",
+        "image_query": "earth+orbit",
+        "hint": "It's a circular path!"
       }
     ],
     "medium": [
       {
         "type": "multiple_choice",
         "question": "What type of animal is a penguin?",
-        "options": ["Mammal", "Fish", "Bird", "Amphibian"],
+        "options": [
+          "Mammal",
+          "Fish",
+          "Bird",
+          "Amphibian"
+        ],
         "correct_index": 2,
         "explanation": "Penguins are birds, even though they can't fly! They're amazing swimmers instead.",
         "image_query": "penguin+swimming",
@@ -67,7 +508,12 @@
       {
         "type": "multiple_choice",
         "question": "How many bones does an adult human have?",
-        "options": ["106", "206", "306", "156"],
+        "options": [
+          "106",
+          "206",
+          "306",
+          "156"
+        ],
         "correct_index": 1,
         "explanation": "Adults have 206 bones! Babies actually have more, but some fuse together as we grow.",
         "image_query": "human+skeleton",
@@ -76,7 +522,10 @@
       {
         "type": "true_false",
         "question": "Sound travels faster through water than through air.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "Sound travels about 4 times faster in water than in air!",
         "image_query": "sound+waves+water",
@@ -85,11 +534,434 @@
       {
         "type": "multiple_choice",
         "question": "What is the hardest natural substance on Earth?",
-        "options": ["Gold", "Iron", "Diamond", "Ruby"],
+        "options": [
+          "Gold",
+          "Iron",
+          "Diamond",
+          "Ruby"
+        ],
         "correct_index": 2,
         "explanation": "Diamonds are the hardest natural material - they can cut through almost anything!",
         "image_query": "diamond+crystal",
         "hint": "It's a precious gem!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the chemical formula for water?",
+        "options": [
+          "H2O",
+          "CO2",
+          "O2",
+          "H2O2"
+        ],
+        "correct_index": 0,
+        "explanation": "Water is H2O - two hydrogen atoms and one oxygen atom!",
+        "image_query": "water+molecule+h2o",
+        "hint": "It has two H's and one O!"
+      },
+      {
+        "type": "true_false",
+        "question": "Humans and dinosaurs lived at the same time.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Dinosaurs went extinct about 65 million years before humans appeared!",
+        "image_query": "dinosaur+extinction",
+        "hint": "Dinosaurs were long gone!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The smallest bone in the human body is in your ____.",
+        "answer": "ear",
+        "explanation": "The stapes bone in your ear is only 2-3 millimeters long!",
+        "image_query": "ear+bones+stapes",
+        "hint": "It helps you hear!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What causes the seasons on Earth?",
+        "options": [
+          "Distance from the Sun",
+          "Earth's tilt",
+          "Solar flares",
+          "The Moon"
+        ],
+        "correct_index": 1,
+        "explanation": "Earth's 23.5-degree tilt causes different parts to get more sunlight at different times!",
+        "image_query": "earth+tilt+seasons",
+        "hint": "Earth leans to one side!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do you call animals that are active during the day?",
+        "options": [
+          "Nocturnal",
+          "Diurnal",
+          "Crepuscular",
+          "Hibernating"
+        ],
+        "correct_index": 1,
+        "explanation": "Diurnal animals like humans, butterflies, and most birds are active during daylight!",
+        "image_query": "diurnal+animals",
+        "hint": "It's the opposite of nocturnal!"
+      },
+      {
+        "type": "true_false",
+        "question": "Your brain stops growing when you become an adult.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Your brain continues to form new connections throughout your life - it's always learning!",
+        "image_query": "brain+neuroplasticity",
+        "hint": "Your brain keeps changing!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The colorful arc of light in the sky after rain is called a ____.",
+        "answer": "rainbow",
+        "explanation": "Rainbows form when sunlight is bent and reflected by water droplets!",
+        "image_query": "rainbow+after+rain",
+        "hint": "It has seven colors!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the strongest muscle in the human body?",
+        "options": [
+          "Bicep",
+          "Heart",
+          "Jaw (masseter)",
+          "Calf"
+        ],
+        "correct_index": 2,
+        "explanation": "The masseter muscle in your jaw can exert the most force!",
+        "image_query": "jaw+muscle+masseter",
+        "hint": "It helps you chew!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do we call a baby kangaroo?",
+        "options": [
+          "Calf",
+          "Pup",
+          "Joey",
+          "Kit"
+        ],
+        "correct_index": 2,
+        "explanation": "Baby kangaroos are called joeys and they live in their mom's pouch!",
+        "image_query": "kangaroo+joey+pouch",
+        "hint": "It's a friendly name!"
+      },
+      {
+        "type": "true_false",
+        "question": "Lightning never strikes the same place twice.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Lightning often strikes the same place multiple times, especially tall buildings!",
+        "image_query": "lightning+striking+building",
+        "hint": "It's a myth!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The layer of gases surrounding Earth is called the ____.",
+        "answer": "atmosphere",
+        "explanation": "Earth's atmosphere protects us and gives us air to breathe!",
+        "image_query": "earth+atmosphere+layers",
+        "hint": "It's the air around our planet!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How long does it take for Earth to rotate once?",
+        "options": [
+          "12 hours",
+          "24 hours",
+          "48 hours",
+          "1 week"
+        ],
+        "correct_index": 1,
+        "explanation": "Earth takes 24 hours to spin once - that's one day!",
+        "image_query": "earth+rotation",
+        "hint": "It's how we measure a day!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What type of animal can live both in water and on land?",
+        "options": [
+          "Reptile",
+          "Amphibian",
+          "Mammal",
+          "Bird"
+        ],
+        "correct_index": 1,
+        "explanation": "Amphibians like frogs and salamanders can live in both water and on land!",
+        "image_query": "amphibian+frog",
+        "hint": "Frogs are an example!"
+      },
+      {
+        "type": "true_false",
+        "question": "Glass is actually a very slow-moving liquid.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "This is a myth! Glass is a solid, though it has some unusual properties.",
+        "image_query": "glass+structure",
+        "hint": "It's a common misconception!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The tubes that carry blood away from the heart are called ____.",
+        "answer": "arteries",
+        "explanation": "Arteries carry oxygen-rich blood from your heart to the rest of your body!",
+        "image_query": "arteries+circulatory+system",
+        "hint": "They start with 'A' for 'away'!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the fastest bird in the world?",
+        "options": [
+          "Eagle",
+          "Falcon",
+          "Hummingbird",
+          "Swift"
+        ],
+        "correct_index": 1,
+        "explanation": "The peregrine falcon can dive at speeds over 240 mph!",
+        "image_query": "peregrine+falcon+diving",
+        "hint": "It's a bird of prey!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many teeth do adult humans have?",
+        "options": [
+          "28",
+          "30",
+          "32",
+          "36"
+        ],
+        "correct_index": 2,
+        "explanation": "Most adults have 32 teeth, including wisdom teeth!",
+        "image_query": "adult+human+teeth",
+        "hint": "It's an even number in the 30s!"
+      },
+      {
+        "type": "true_false",
+        "question": "Hot water freezes faster than cold water.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "This is called the Mpemba effect - hot water can sometimes freeze faster than cold water!",
+        "image_query": "mpemba+effect",
+        "hint": "It sounds weird but it's true!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The process of a caterpillar changing into a butterfly is called ____.",
+        "answer": "metamorphosis",
+        "explanation": "Metamorphosis is a complete transformation from one form to another!",
+        "image_query": "butterfly+metamorphosis+stages",
+        "hint": "It means 'change of form'!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What mineral makes teeth and bones strong?",
+        "options": [
+          "Iron",
+          "Calcium",
+          "Sodium",
+          "Potassium"
+        ],
+        "correct_index": 1,
+        "explanation": "Calcium is essential for strong bones and teeth - that's why milk is good for you!",
+        "image_query": "calcium+bones+teeth",
+        "hint": "It's found in milk!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What do we call scientists who study weather?",
+        "options": [
+          "Geologists",
+          "Biologists",
+          "Meteorologists",
+          "Astronomers"
+        ],
+        "correct_index": 2,
+        "explanation": "Meteorologists study weather patterns and make forecasts!",
+        "image_query": "meteorologist+weather",
+        "hint": "Think about weather forecasts!"
+      },
+      {
+        "type": "true_false",
+        "question": "Your stomach is on the left side of your body.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Most of your stomach is on the left side of your body!",
+        "image_query": "stomach+anatomy+location",
+        "hint": "It's not in the center!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The measurement of how hot or cold something is called ____.",
+        "answer": "temperature",
+        "explanation": "We measure temperature in degrees Fahrenheit or Celsius!",
+        "image_query": "thermometer+temperature",
+        "hint": "Thermometers measure it!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the largest joint in the human body?",
+        "options": [
+          "Hip",
+          "Knee",
+          "Shoulder",
+          "Elbow"
+        ],
+        "correct_index": 1,
+        "explanation": "Your knee is the largest joint and helps you walk, run, and jump!",
+        "image_query": "knee+joint+anatomy",
+        "hint": "It's in your leg!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What causes ocean tides?",
+        "options": [
+          "Wind",
+          "The Moon's gravity",
+          "Earth's rotation",
+          "Ocean currents"
+        ],
+        "correct_index": 1,
+        "explanation": "The Moon's gravity pulls on Earth's oceans, creating high and low tides!",
+        "image_query": "moon+ocean+tides",
+        "hint": "The Moon affects water!"
+      },
+      {
+        "type": "true_false",
+        "question": "Sharks are mammals.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Sharks are fish! They have gills and cold blood, unlike mammals.",
+        "image_query": "shark+fish",
+        "hint": "They breathe through gills!"
+      },
+      {
+        "type": "fill_in",
+        "question": "Animals that eat both plants and meat are called ____.",
+        "answer": "omnivores",
+        "explanation": "Omnivores like bears, humans, and pigs eat both plants and animals!",
+        "image_query": "omnivore+animals",
+        "hint": "Omni means 'all'!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is dry ice made of?",
+        "options": [
+          "Frozen water",
+          "Frozen nitrogen",
+          "Frozen carbon dioxide",
+          "Frozen oxygen"
+        ],
+        "correct_index": 2,
+        "explanation": "Dry ice is frozen carbon dioxide - it goes straight from solid to gas!",
+        "image_query": "dry+ice+smoke",
+        "hint": "It's not really ice!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many chambers does a fish heart have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_index": 1,
+        "explanation": "Fish hearts have only 2 chambers, unlike our 4-chambered hearts!",
+        "image_query": "fish+heart+anatomy",
+        "hint": "It's less than humans!"
+      },
+      {
+        "type": "true_false",
+        "question": "Bats are blind.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Bats can see! They also use echolocation to navigate in the dark.",
+        "image_query": "bat+echolocation",
+        "hint": "It's a myth!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The hard outer covering of insects is called an ____.",
+        "answer": "exoskeleton",
+        "explanation": "An exoskeleton is like armor on the outside of the body!",
+        "image_query": "insect+exoskeleton",
+        "hint": "Exo means outside!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What gas do we breathe out that plants need?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Hydrogen"
+        ],
+        "correct_index": 2,
+        "explanation": "We breathe out carbon dioxide, and plants use it to make food!",
+        "image_query": "breathing+carbon+dioxide",
+        "hint": "It's what plants breathe in!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the main component of natural gas?",
+        "options": [
+          "Propane",
+          "Methane",
+          "Butane",
+          "Ethane"
+        ],
+        "correct_index": 1,
+        "explanation": "Natural gas is mostly methane, which is used for heating and cooking!",
+        "image_query": "natural+gas+methane",
+        "hint": "It starts with 'M'!"
+      },
+      {
+        "type": "true_false",
+        "question": "The North Pole is colder than the South Pole.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Antarctica (South Pole) is actually colder because it's a landmass with high elevation!",
+        "image_query": "south+pole+antarctica",
+        "hint": "Antarctica is the coldest!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The instrument used to measure earthquakes is called a ____.",
+        "answer": "seismograph",
+        "explanation": "A seismograph detects and records vibrations from earthquakes!",
+        "image_query": "seismograph+earthquake",
+        "hint": "It records shaking!"
       }
     ],
     "hard": [
@@ -104,7 +976,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the most abundant gas in Earth's atmosphere?",
-        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "options": [
+          "Oxygen",
+          "Carbon Dioxide",
+          "Nitrogen",
+          "Hydrogen"
+        ],
         "correct_index": 2,
         "explanation": "Nitrogen makes up about 78% of Earth's atmosphere!",
         "image_query": "earth+atmosphere",
@@ -113,7 +990,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the pH level of pure water?",
-        "options": ["5", "7", "9", "11"],
+        "options": [
+          "5",
+          "7",
+          "9",
+          "11"
+        ],
         "correct_index": 1,
         "explanation": "Pure water has a pH of 7, which is perfectly neutral - not acidic or basic!",
         "image_query": "ph+scale",
@@ -122,20 +1004,446 @@
       {
         "type": "true_false",
         "question": "Lightning is hotter than the surface of the Sun.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
-        "explanation": "Lightning can reach 30,000°C, while the Sun's surface is only about 5,500°C!",
+        "explanation": "Lightning can reach 30,000\u00c2\u00b0C, while the Sun's surface is only about 5,500\u00c2\u00b0C!",
         "image_query": "lightning+bolt",
         "hint": "Lightning is incredibly hot!"
       },
       {
         "type": "multiple_choice",
         "question": "What element do all organic compounds contain?",
-        "options": ["Oxygen", "Nitrogen", "Carbon", "Hydrogen"],
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon",
+          "Hydrogen"
+        ],
         "correct_index": 2,
         "explanation": "All organic compounds contain carbon - that's what makes them 'organic'!",
         "image_query": "carbon+atom",
         "hint": "It's element #6 on the periodic table!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the atomic number of carbon?",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "12"
+        ],
+        "correct_index": 1,
+        "explanation": "Carbon has 6 protons, so its atomic number is 6!",
+        "image_query": "carbon+atom+periodic+table",
+        "hint": "It's half of 12!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The jellylike substance inside a cell is called ____.",
+        "answer": "cytoplasm",
+        "explanation": "Cytoplasm holds all the cell's organelles in place!",
+        "image_query": "cell+cytoplasm",
+        "hint": "It starts with 'cyto'!"
+      },
+      {
+        "type": "true_false",
+        "question": "Venus rotates backwards compared to most planets.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Venus rotates clockwise, opposite to most other planets!",
+        "image_query": "venus+rotation",
+        "hint": "It's unique!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the study of insects called?",
+        "options": [
+          "Herpetology",
+          "Entomology",
+          "Ornithology",
+          "Ichthyology"
+        ],
+        "correct_index": 1,
+        "explanation": "Entomology is the scientific study of insects!",
+        "image_query": "entomology+insects",
+        "hint": "Think of bugs!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many pairs of ribs do humans have?",
+        "options": [
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "correct_index": 1,
+        "explanation": "Humans have 12 pairs of ribs (24 total) protecting our organs!",
+        "image_query": "human+rib+cage",
+        "hint": "It's a dozen pairs!"
+      },
+      {
+        "type": "true_false",
+        "question": "Electrons are larger than protons.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Electrons are much smaller and lighter than protons!",
+        "image_query": "atom+structure",
+        "hint": "Electrons are tiny!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The green pigment in plants that absorbs sunlight is ____.",
+        "answer": "chlorophyll",
+        "explanation": "Chlorophyll captures light energy for photosynthesis!",
+        "image_query": "chlorophyll+molecule",
+        "hint": "It makes leaves green!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What type of rock is formed from cooled lava?",
+        "options": [
+          "Sedimentary",
+          "Metamorphic",
+          "Igneous",
+          "Limestone"
+        ],
+        "correct_index": 2,
+        "explanation": "Igneous rocks form when magma or lava cools and hardens!",
+        "image_query": "igneous+rock+lava",
+        "hint": "Think of volcanoes!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many cervical vertebrae are in the human neck?",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "12"
+        ],
+        "correct_index": 1,
+        "explanation": "All mammals, including humans, have 7 neck vertebrae!",
+        "image_query": "cervical+vertebrae+neck",
+        "hint": "It's a lucky number!"
+      },
+      {
+        "type": "true_false",
+        "question": "The human appendix serves no function.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "The appendix helps store good bacteria and supports the immune system!",
+        "image_query": "human+appendix",
+        "hint": "It does help the body!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The largest artery in the human body is the ____.",
+        "answer": "aorta",
+        "explanation": "The aorta carries blood from your heart to the rest of your body!",
+        "image_query": "aorta+heart",
+        "hint": "It starts with 'A'!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the rarest blood type?",
+        "options": [
+          "O negative",
+          "AB positive",
+          "AB negative",
+          "B negative"
+        ],
+        "correct_index": 2,
+        "explanation": "AB negative is the rarest blood type, found in less than 1% of people!",
+        "image_query": "blood+types",
+        "hint": "It's a combination with negative!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which vitamin is produced when skin is exposed to sunlight?",
+        "options": [
+          "Vitamin A",
+          "Vitamin C",
+          "Vitamin D",
+          "Vitamin K"
+        ],
+        "correct_index": 2,
+        "explanation": "Your skin produces Vitamin D when exposed to sunlight!",
+        "image_query": "vitamin+d+sunlight",
+        "hint": "It's the sunshine vitamin!"
+      },
+      {
+        "type": "true_false",
+        "question": "All radioactive elements are man-made.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Many radioactive elements like uranium occur naturally!",
+        "image_query": "uranium+ore",
+        "hint": "Some occur in nature!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The basic unit of heredity is called a ____.",
+        "answer": "gene",
+        "explanation": "Genes are segments of DNA that determine your traits!",
+        "image_query": "gene+dna",
+        "hint": "It's in your DNA!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the chemical symbol for sodium?",
+        "options": [
+          "So",
+          "Sd",
+          "Na",
+          "S"
+        ],
+        "correct_index": 2,
+        "explanation": "Sodium's symbol Na comes from its Latin name 'natrium'!",
+        "image_query": "sodium+periodic+table",
+        "hint": "It's from the Latin name!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many muscles does it take to smile?",
+        "options": [
+          "12",
+          "17",
+          "26",
+          "43"
+        ],
+        "correct_index": 1,
+        "explanation": "It takes about 17 muscles to smile!",
+        "image_query": "facial+muscles+smile",
+        "hint": "Less than 20!"
+      },
+      {
+        "type": "true_false",
+        "question": "The human body glows in the dark.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Humans emit a very weak light (bioluminescence) that's too faint to see!",
+        "image_query": "human+bioluminescence",
+        "hint": "It's too weak to see!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The bending of light as it passes through different substances is called ____.",
+        "answer": "refraction",
+        "explanation": "Refraction makes a straw look bent in a glass of water!",
+        "image_query": "light+refraction",
+        "hint": "It's why straws look bent!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the only metal that is liquid at room temperature?",
+        "options": [
+          "Gallium",
+          "Mercury",
+          "Cesium",
+          "Bromine"
+        ],
+        "correct_index": 1,
+        "explanation": "Mercury is liquid at room temperature and is used in some thermometers!",
+        "image_query": "mercury+liquid+metal",
+        "hint": "It's in old thermometers!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What percentage of the human brain is water?",
+        "options": [
+          "50%",
+          "60%",
+          "73%",
+          "85%"
+        ],
+        "correct_index": 2,
+        "explanation": "The human brain is about 73% water!",
+        "image_query": "brain+water+content",
+        "hint": "It's in the 70s!"
+      },
+      {
+        "type": "true_false",
+        "question": "Antibiotics can kill viruses.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Antibiotics only work on bacteria, not viruses!",
+        "image_query": "antibiotics+bacteria",
+        "hint": "They're for bacteria only!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The process where a solid turns directly into a gas is called ____.",
+        "answer": "sublimation",
+        "explanation": "Dry ice sublimates - it goes straight from solid to gas!",
+        "image_query": "dry+ice+sublimation",
+        "hint": "Dry ice does this!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the largest internal organ in the human body?",
+        "options": [
+          "Liver",
+          "Brain",
+          "Lungs",
+          "Heart"
+        ],
+        "correct_index": 0,
+        "explanation": "The liver weighs about 3 pounds and has over 500 functions!",
+        "image_query": "human+liver+organ",
+        "hint": "It helps clean your blood!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many bones are in the human hand?",
+        "options": [
+          "19",
+          "27",
+          "32",
+          "41"
+        ],
+        "correct_index": 1,
+        "explanation": "Each hand has 27 bones - 8 in the wrist, 5 in the palm, and 14 in the fingers!",
+        "image_query": "hand+bones+anatomy",
+        "hint": "It's in the 20s!"
+      },
+      {
+        "type": "true_false",
+        "question": "Chameleons change color to blend in with their surroundings.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Chameleons change color mainly to communicate and regulate temperature!",
+        "image_query": "chameleon+color+change",
+        "hint": "It's not just for camouflage!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The tubes that connect the kidneys to the bladder are called ____.",
+        "answer": "ureters",
+        "explanation": "Ureters carry urine from your kidneys to your bladder!",
+        "image_query": "urinary+system+ureters",
+        "hint": "They carry urine!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the speed of sound in air at sea level?",
+        "options": [
+          "343 m/s",
+          "500 m/s",
+          "1000 m/s",
+          "1500 m/s"
+        ],
+        "correct_index": 0,
+        "explanation": "Sound travels at about 343 meters per second (767 mph) in air!",
+        "image_query": "sound+waves+speed",
+        "hint": "It's in the 300s!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which blood cells fight infection?",
+        "options": [
+          "Red blood cells",
+          "White blood cells",
+          "Platelets",
+          "Plasma cells"
+        ],
+        "correct_index": 1,
+        "explanation": "White blood cells are part of your immune system and fight infections!",
+        "image_query": "white+blood+cells",
+        "hint": "They're not red!"
+      },
+      {
+        "type": "true_false",
+        "question": "Humans can regenerate liver tissue.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "The liver can regenerate up to 75% of its tissue!",
+        "image_query": "liver+regeneration",
+        "hint": "It's amazing!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The colored ring in the eye that controls light entry is the ____.",
+        "answer": "iris",
+        "explanation": "Your iris expands and contracts to control how much light enters your eye!",
+        "image_query": "eye+iris+pupil",
+        "hint": "It's named after a flower!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the primary gas in Earth's early atmosphere?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Carbon dioxide",
+          "Methane"
+        ],
+        "correct_index": 3,
+        "explanation": "Earth's early atmosphere was mostly methane and ammonia!",
+        "image_query": "early+earth+atmosphere",
+        "hint": "It wasn't breathable!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many taste buds does the average human have?",
+        "options": [
+          "2,000-5,000",
+          "10,000",
+          "50,000",
+          "100,000"
+        ],
+        "correct_index": 1,
+        "explanation": "Humans have about 10,000 taste buds that detect sweet, sour, salty, bitter, and umami!",
+        "image_query": "taste+buds+tongue",
+        "hint": "It's a nice round number!"
+      },
+      {
+        "type": "true_false",
+        "question": "Fingernails grow faster than toenails.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Fingernails grow about 3-4 times faster than toenails!",
+        "image_query": "nail+growth",
+        "hint": "Your hands are more active!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The scientific name for the windpipe is the ____.",
+        "answer": "trachea",
+        "explanation": "The trachea carries air from your throat to your lungs!",
+        "image_query": "trachea+windpipe",
+        "hint": "It's your airway!"
       }
     ],
     "expert": [
@@ -150,7 +1458,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the name of the effect where light bends as it passes through different materials?",
-        "options": ["Reflection", "Diffraction", "Refraction", "Dispersion"],
+        "options": [
+          "Reflection",
+          "Diffraction",
+          "Refraction",
+          "Dispersion"
+        ],
         "correct_index": 2,
         "explanation": "Refraction causes light to bend when passing through materials like water or glass!",
         "image_query": "light+refraction+prism",
@@ -159,7 +1472,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the smallest unit of life that can function independently?",
-        "options": ["Atom", "Molecule", "Cell", "Organ"],
+        "options": [
+          "Atom",
+          "Molecule",
+          "Cell",
+          "Organ"
+        ],
         "correct_index": 2,
         "explanation": "Cells are the smallest units of life - all living things are made of one or more cells!",
         "image_query": "cell+microscope",
@@ -168,7 +1486,10 @@
       {
         "type": "true_false",
         "question": "Graphite and diamond are both made of pure carbon.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "Both are carbon! The difference is how the carbon atoms are arranged.",
         "image_query": "graphite+diamond+comparison",
@@ -181,6 +1502,424 @@
         "explanation": "Photosynthesis uses sunlight, water, and CO2 to make glucose and oxygen!",
         "image_query": "photosynthesis+diagram",
         "hint": "Photo means light, synthesis means making something!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the process where plants lose water through their leaves?",
+        "options": [
+          "Respiration",
+          "Transpiration",
+          "Condensation",
+          "Evaporation"
+        ],
+        "correct_index": 1,
+        "explanation": "Transpiration is how plants release water vapor through tiny pores called stomata!",
+        "image_query": "plant+transpiration+stomata",
+        "hint": "Trans means across!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The genetic material in cells is called ____.",
+        "answer": "DNA",
+        "explanation": "DNA (deoxyribonucleic acid) contains all your genetic instructions!",
+        "image_query": "dna+double+helix",
+        "hint": "It's three letters!"
+      },
+      {
+        "type": "true_false",
+        "question": "Quantum entanglement allows particles to affect each other instantly across any distance.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Entangled particles are mysteriously connected regardless of distance!",
+        "image_query": "quantum+entanglement",
+        "hint": "Quantum physics is weird!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the powerhouse organelle of plant cells that animals don't have?",
+        "options": [
+          "Nucleus",
+          "Chloroplast",
+          "Ribosome",
+          "Vacuole"
+        ],
+        "correct_index": 1,
+        "explanation": "Chloroplasts perform photosynthesis and give plants their green color!",
+        "image_query": "chloroplast+plant+cell",
+        "hint": "It makes food from sunlight!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the name of the longest bone in the human body?",
+        "options": [
+          "Tibia",
+          "Femur",
+          "Humerus",
+          "Fibula"
+        ],
+        "correct_index": 1,
+        "explanation": "The femur (thigh bone) is the longest and strongest bone!",
+        "image_query": "femur+thigh+bone",
+        "hint": "It's in your upper leg!"
+      },
+      {
+        "type": "true_false",
+        "question": "All chemical reactions release energy.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Endothermic reactions absorb energy, while exothermic reactions release it!",
+        "image_query": "endothermic+exothermic+reactions",
+        "hint": "Some absorb energy!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The measure of acidity or alkalinity is called ____.",
+        "answer": "pH",
+        "explanation": "pH ranges from 0 (very acidic) to 14 (very alkaline), with 7 being neutral!",
+        "image_query": "ph+scale+indicator",
+        "hint": "It's two letters!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the smallest particle of an element?",
+        "options": [
+          "Molecule",
+          "Atom",
+          "Proton",
+          "Electron"
+        ],
+        "correct_index": 1,
+        "explanation": "Atoms are the smallest units that maintain an element's properties!",
+        "image_query": "atom+structure+model",
+        "hint": "It can't be divided chemically!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many pairs of chromosomes do humans have?",
+        "options": [
+          "21",
+          "23",
+          "25",
+          "46"
+        ],
+        "correct_index": 1,
+        "explanation": "Humans have 23 pairs of chromosomes (46 total) containing all our genes!",
+        "image_query": "human+chromosomes",
+        "hint": "23 pairs!"
+      },
+      {
+        "type": "true_false",
+        "question": "Bacteria are always harmful to humans.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Many bacteria are helpful! They live in our gut and help digest food!",
+        "image_query": "beneficial+bacteria+gut",
+        "hint": "Many are good for us!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The movement of molecules from high to low concentration is called ____.",
+        "answer": "diffusion",
+        "explanation": "Diffusion helps cells get nutrients and remove waste!",
+        "image_query": "diffusion+process",
+        "hint": "Things spread out!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the most abundant protein in the human body?",
+        "options": [
+          "Hemoglobin",
+          "Collagen",
+          "Insulin",
+          "Keratin"
+        ],
+        "correct_index": 1,
+        "explanation": "Collagen makes up about 30% of your body's protein and keeps skin elastic!",
+        "image_query": "collagen+protein",
+        "hint": "It's in your skin!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is absolute zero?",
+        "options": [
+          "-100\u00b0C",
+          "-273\u00b0C",
+          "-373\u00b0C",
+          "-500\u00b0C"
+        ],
+        "correct_index": 1,
+        "explanation": "Absolute zero (-273.15\u00b0C) is the lowest possible temperature where atoms stop moving!",
+        "image_query": "absolute+zero+temperature",
+        "hint": "It's really cold!"
+      },
+      {
+        "type": "true_false",
+        "question": "Vaccines contain dead or weakened germs.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Vaccines train your immune system without making you sick!",
+        "image_query": "vaccine+how+it+works",
+        "hint": "They're safe!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The pigment that gives skin its color is called ____.",
+        "answer": "melanin",
+        "explanation": "Melanin protects your skin from UV damage!",
+        "image_query": "melanin+skin",
+        "hint": "It protects from the sun!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the study of heredity called?",
+        "options": [
+          "Ecology",
+          "Genetics",
+          "Anatomy",
+          "Physiology"
+        ],
+        "correct_index": 1,
+        "explanation": "Genetics studies how traits are passed from parents to children!",
+        "image_query": "genetics+inheritance",
+        "hint": "It's about genes!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How long does it take light from the Sun to reach Earth?",
+        "options": [
+          "8 seconds",
+          "8 minutes",
+          "8 hours",
+          "8 days"
+        ],
+        "correct_index": 1,
+        "explanation": "Light travels 93 million miles from the Sun to Earth in about 8 minutes!",
+        "image_query": "sunlight+travel+time",
+        "hint": "It's in minutes!"
+      },
+      {
+        "type": "true_false",
+        "question": "All fungi are mushrooms.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Fungi include mushrooms, molds, and yeasts - mushrooms are just one type!",
+        "image_query": "types+of+fungi",
+        "hint": "There are many types!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The organelle that packages and ships proteins is the ____ apparatus.",
+        "answer": "Golgi",
+        "explanation": "The Golgi apparatus is like the cell's post office!",
+        "image_query": "golgi+apparatus+cell",
+        "hint": "It's named after a scientist!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What causes auroras (Northern/Southern Lights)?",
+        "options": [
+          "Moonlight",
+          "Solar wind particles",
+          "Lightning",
+          "Ice crystals"
+        ],
+        "correct_index": 1,
+        "explanation": "Auroras occur when solar wind particles collide with Earth's atmosphere!",
+        "image_query": "aurora+northern+lights",
+        "hint": "It comes from the Sun!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which element is essential for nuclear energy?",
+        "options": [
+          "Carbon",
+          "Uranium",
+          "Gold",
+          "Silver"
+        ],
+        "correct_index": 1,
+        "explanation": "Uranium atoms split in nuclear fission to release huge amounts of energy!",
+        "image_query": "uranium+nuclear+energy",
+        "hint": "It's radioactive!"
+      },
+      {
+        "type": "true_false",
+        "question": "The human body contains about 60% water.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "About 60% of adult body weight is water!",
+        "image_query": "human+body+water+content",
+        "hint": "We're mostly water!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The membrane surrounding a cell is called the cell ____.",
+        "answer": "membrane",
+        "explanation": "The cell membrane controls what enters and leaves the cell!",
+        "image_query": "cell+membrane+structure",
+        "hint": "It's the cell's border!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the strongest natural fiber?",
+        "options": [
+          "Cotton",
+          "Silk",
+          "Spider silk",
+          "Wool"
+        ],
+        "correct_index": 2,
+        "explanation": "Spider silk is stronger than steel of the same thickness!",
+        "image_query": "spider+silk+strong",
+        "hint": "Spiders make it!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "How many neurons are in the human brain?",
+        "options": [
+          "1 billion",
+          "10 billion",
+          "86 billion",
+          "100 billion"
+        ],
+        "correct_index": 2,
+        "explanation": "The brain has about 86 billion neurons that send electrical signals!",
+        "image_query": "brain+neurons",
+        "hint": "It's in the billions!"
+      },
+      {
+        "type": "true_false",
+        "question": "Plants can grow without soil.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Hydroponics grows plants in water with nutrients - no soil needed!",
+        "image_query": "hydroponics+plants",
+        "hint": "It's called hydroponics!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The breaking down of rocks by weather is called ____.",
+        "answer": "weathering",
+        "explanation": "Weathering slowly breaks rocks into smaller pieces over time!",
+        "image_query": "rock+weathering",
+        "hint": "Weather does it!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the main component of the Sun?",
+        "options": [
+          "Helium",
+          "Hydrogen",
+          "Oxygen",
+          "Carbon"
+        ],
+        "correct_index": 1,
+        "explanation": "The Sun is about 73% hydrogen, which it fuses into helium!",
+        "image_query": "sun+composition+hydrogen",
+        "hint": "It's the lightest element!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the smallest unit that can perform life functions?",
+        "options": [
+          "Atom",
+          "Molecule",
+          "Cell",
+          "Tissue"
+        ],
+        "correct_index": 2,
+        "explanation": "Cells are the basic unit of life - all living things are made of cells!",
+        "image_query": "cell+basic+unit+life",
+        "hint": "It's alive!"
+      },
+      {
+        "type": "true_false",
+        "question": "The speed of light is constant in all materials.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Light slows down when traveling through materials like water or glass!",
+        "image_query": "light+speed+materials",
+        "hint": "It changes in different materials!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The nerve cells that carry messages are called ____.",
+        "answer": "neurons",
+        "explanation": "Neurons transmit electrical and chemical signals throughout your body!",
+        "image_query": "neuron+nerve+cell",
+        "hint": "They're in your nervous system!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What is the primary function of red blood cells?",
+        "options": [
+          "Fight infection",
+          "Carry oxygen",
+          "Clot blood",
+          "Produce antibodies"
+        ],
+        "correct_index": 1,
+        "explanation": "Red blood cells contain hemoglobin that carries oxygen to all your cells!",
+        "image_query": "red+blood+cells+oxygen",
+        "hint": "They deliver oxygen!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What type of energy is stored in food?",
+        "options": [
+          "Kinetic",
+          "Thermal",
+          "Chemical",
+          "Nuclear"
+        ],
+        "correct_index": 2,
+        "explanation": "Food contains chemical energy that your body converts to other forms!",
+        "image_query": "chemical+energy+food",
+        "hint": "It's in the bonds!"
+      },
+      {
+        "type": "true_false",
+        "question": "Diamonds and graphite are both pure carbon.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "They're both carbon but arranged differently - that's why they look so different!",
+        "image_query": "diamond+graphite+carbon",
+        "hint": "Same element, different structure!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The liquid portion of blood is called ____.",
+        "answer": "plasma",
+        "explanation": "Plasma carries blood cells, nutrients, and waste throughout your body!",
+        "image_query": "blood+plasma",
+        "hint": "It's the liquid part!"
       }
     ]
   },
@@ -189,7 +1928,12 @@
       {
         "type": "multiple_choice",
         "question": "Who was the first president of the United States?",
-        "options": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+        "options": [
+          "Thomas Jefferson",
+          "George Washington",
+          "Abraham Lincoln",
+          "John Adams"
+        ],
         "correct_index": 1,
         "explanation": "George Washington was the first U.S. president and is called the 'Father of His Country'!",
         "image_query": "george+washington+portrait",
@@ -198,7 +1942,10 @@
       {
         "type": "true_false",
         "question": "The Great Wall of China can be seen from space.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 1,
         "explanation": "This is a myth! The Great Wall is actually too narrow to see from space with the naked eye.",
         "image_query": "great+wall+of+china",
@@ -215,7 +1962,12 @@
       {
         "type": "multiple_choice",
         "question": "What ocean did Christopher Columbus cross in 1492?",
-        "options": ["Pacific Ocean", "Indian Ocean", "Atlantic Ocean", "Arctic Ocean"],
+        "options": [
+          "Pacific Ocean",
+          "Indian Ocean",
+          "Atlantic Ocean",
+          "Arctic Ocean"
+        ],
         "correct_index": 2,
         "explanation": "Columbus crossed the Atlantic Ocean from Spain to the Americas in 1492.",
         "image_query": "atlantic+ocean+map",
@@ -224,11 +1976,434 @@
       {
         "type": "multiple_choice",
         "question": "In what country did the Olympics originate?",
-        "options": ["Italy", "Greece", "Egypt", "Rome"],
+        "options": [
+          "Italy",
+          "Greece",
+          "Egypt",
+          "Rome"
+        ],
         "correct_index": 1,
         "explanation": "The Olympics started in ancient Greece over 2,700 years ago!",
         "image_query": "ancient+greek+olympics",
         "hint": "Think of ancient civilization!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What country is home to the kangaroo?",
+        "options": [
+          "Africa",
+          "Australia",
+          "Asia",
+          "America"
+        ],
+        "correct_index": 1,
+        "explanation": "Kangaroos are native to Australia!",
+        "image_query": "kangaroo+australia",
+        "hint": "It's a continent and a country!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Statue of Liberty was a gift from France.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "France gave the Statue of Liberty to the USA in 1886!",
+        "image_query": "statue+of+liberty",
+        "hint": "It was a friendship gift!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The first airplane was invented by the Wright ____.",
+        "answer": "Brothers",
+        "explanation": "Orville and Wilbur Wright flew the first airplane in 1903!",
+        "image_query": "wright+brothers+airplane",
+        "hint": "They were siblings!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which ancient civilization built the Colosseum?",
+        "options": [
+          "Greeks",
+          "Romans",
+          "Egyptians",
+          "Mayans"
+        ],
+        "correct_index": 1,
+        "explanation": "The Romans built the Colosseum in Rome almost 2,000 years ago!",
+        "image_query": "roman+colosseum",
+        "hint": "It's in Rome!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who was the first woman to fly solo across the Atlantic?",
+        "options": [
+          "Amelia Earhart",
+          "Sally Ride",
+          "Harriet Tubman",
+          "Rosa Parks"
+        ],
+        "correct_index": 0,
+        "explanation": "Amelia Earhart made this historic flight in 1932!",
+        "image_query": "amelia+earhart",
+        "hint": "She was a famous pilot!"
+      },
+      {
+        "type": "true_false",
+        "question": "The American flag has 50 stars.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Each star represents one of the 50 states!",
+        "image_query": "american+flag+stars",
+        "hint": "One for each state!"
+      },
+      {
+        "type": "fill_in",
+        "question": "Abraham Lincoln was the ____th president of the United States.",
+        "answer": "16",
+        "explanation": "Lincoln was the 16th president and helped end slavery!",
+        "image_query": "abraham+lincoln",
+        "hint": "It's between 15 and 17!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What ship sank after hitting an iceberg in 1912?",
+        "options": [
+          "Mayflower",
+          "Titanic",
+          "Santa Maria",
+          "HMS Victory"
+        ],
+        "correct_index": 1,
+        "explanation": "The Titanic sank on its first voyage across the Atlantic!",
+        "image_query": "titanic+ship",
+        "hint": "There's a famous movie about it!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who invented the telephone?",
+        "options": [
+          "Thomas Edison",
+          "Alexander Graham Bell",
+          "Nikola Tesla",
+          "Benjamin Franklin"
+        ],
+        "correct_index": 1,
+        "explanation": "Alexander Graham Bell invented the telephone in 1876!",
+        "image_query": "alexander+graham+bell",
+        "hint": "His last name is what a phone does!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Eiffel Tower is in London.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "The Eiffel Tower is in Paris, France!",
+        "image_query": "eiffel+tower+paris",
+        "hint": "It's in France!"
+      },
+      {
+        "type": "fill_in",
+        "question": "Martin Luther King Jr. led the civil ____ movement.",
+        "answer": "rights",
+        "explanation": "Dr. King fought peacefully for equal rights for all people!",
+        "image_query": "martin+luther+king",
+        "hint": "He fought for equality!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What did ancient Egyptians use to write?",
+        "options": [
+          "Paper",
+          "Papyrus",
+          "Clay tablets",
+          "Stone only"
+        ],
+        "correct_index": 1,
+        "explanation": "Papyrus was made from reeds and was like ancient paper!",
+        "image_query": "egyptian+papyrus",
+        "hint": "It was made from plants!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which country gave the United States the Statue of Liberty?",
+        "options": [
+          "England",
+          "Spain",
+          "France",
+          "Italy"
+        ],
+        "correct_index": 2,
+        "explanation": "France gave Lady Liberty as a gift of friendship!",
+        "image_query": "france+statue+liberty",
+        "hint": "It starts with 'F'!"
+      },
+      {
+        "type": "true_false",
+        "question": "Benjamin Franklin was never a U.S. president.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Benjamin Franklin was a Founding Father but never president!",
+        "image_query": "benjamin+franklin",
+        "hint": "He's on the $100 bill!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The first people to reach the South Pole were led by Roald ____.",
+        "answer": "Amundsen",
+        "explanation": "Norwegian explorer Roald Amundsen reached the South Pole in 1911!",
+        "image_query": "amundsen+south+pole",
+        "hint": "He was Norwegian!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What year did humans first land on the Moon?",
+        "options": [
+          "1965",
+          "1967",
+          "1969",
+          "1971"
+        ],
+        "correct_index": 2,
+        "explanation": "Apollo 11 landed on the Moon in 1969!",
+        "image_query": "apollo+11+moon+landing",
+        "hint": "It was in the 1960s!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who wrote the Declaration of Independence?",
+        "options": [
+          "George Washington",
+          "Benjamin Franklin",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "correct_index": 2,
+        "explanation": "Thomas Jefferson wrote most of the Declaration in 1776!",
+        "image_query": "thomas+jefferson+declaration",
+        "hint": "He became the 3rd president!"
+      },
+      {
+        "type": "true_false",
+        "question": "The first automobile was invented in America.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "The first car was invented in Germany by Karl Benz!",
+        "image_query": "first+automobile+benz",
+        "hint": "It was in Europe!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The famous nurse who helped soldiers during the Crimean War was Florence ____.",
+        "answer": "Nightingale",
+        "explanation": "Florence Nightingale is considered the founder of modern nursing!",
+        "image_query": "florence+nightingale",
+        "hint": "Her last name is a bird!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What did Rosa Parks refuse to give up on a bus?",
+        "options": [
+          "Her ticket",
+          "Her seat",
+          "Her bag",
+          "Her book"
+        ],
+        "correct_index": 1,
+        "explanation": "Rosa Parks refused to give up her seat, sparking the civil rights movement!",
+        "image_query": "rosa+parks+bus",
+        "hint": "People sit on it!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Which war was fought between the North and South in the United States?",
+        "options": [
+          "Revolutionary War",
+          "Civil War",
+          "World War I",
+          "War of 1812"
+        ],
+        "correct_index": 1,
+        "explanation": "The Civil War (1861-1865) was fought over slavery and states' rights!",
+        "image_query": "american+civil+war",
+        "hint": "It was between American states!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Berlin Wall separated East and West Germany.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "The Berlin Wall divided the city from 1961 to 1989!",
+        "image_query": "berlin+wall",
+        "hint": "It fell in 1989!"
+      },
+      {
+        "type": "fill_in",
+        "question": "Helen Keller was both deaf and ____.",
+        "answer": "blind",
+        "explanation": "Helen Keller overcame being deaf and blind to become an author and activist!",
+        "image_query": "helen+keller",
+        "hint": "She couldn't see!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What was the name of Columbus's largest ship?",
+        "options": [
+          "Ni\u00f1a",
+          "Pinta",
+          "Santa Maria",
+          "Mayflower"
+        ],
+        "correct_index": 2,
+        "explanation": "The Santa Maria was Columbus's flagship in 1492!",
+        "image_query": "santa+maria+ship",
+        "hint": "It's named after Mary!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who was the first Black president of the United States?",
+        "options": [
+          "Martin Luther King Jr.",
+          "Barack Obama",
+          "Nelson Mandela",
+          "Frederick Douglass"
+        ],
+        "correct_index": 1,
+        "explanation": "Barack Obama served as president from 2009 to 2017!",
+        "image_query": "barack+obama",
+        "hint": "He was elected in 2008!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Liberty Bell is located in Philadelphia.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "The Liberty Bell is in Philadelphia, Pennsylvania!",
+        "image_query": "liberty+bell+philadelphia",
+        "hint": "It's in Pennsylvania!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The ancient wonder located in Egypt is the Great ____ of Giza.",
+        "answer": "Pyramid",
+        "explanation": "The Great Pyramid is over 4,500 years old!",
+        "image_query": "great+pyramid+giza",
+        "hint": "It has triangular sides!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What did Johann Gutenberg invent?",
+        "options": [
+          "The telescope",
+          "The printing press",
+          "The compass",
+          "The clock"
+        ],
+        "correct_index": 1,
+        "explanation": "Gutenberg's printing press revolutionized book making!",
+        "image_query": "gutenberg+printing+press",
+        "hint": "It helped make books!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who was the queen of England for over 60 years until 2022?",
+        "options": [
+          "Queen Victoria",
+          "Queen Elizabeth I",
+          "Queen Elizabeth II",
+          "Queen Anne"
+        ],
+        "correct_index": 2,
+        "explanation": "Queen Elizabeth II reigned from 1952 to 2022!",
+        "image_query": "queen+elizabeth+II",
+        "hint": "She was the second Elizabeth!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Leaning Tower of Pisa is in Italy.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "The famous tilted tower has been leaning since it was built!",
+        "image_query": "leaning+tower+pisa",
+        "hint": "Pisa is in Italy!"
+      },
+      {
+        "type": "fill_in",
+        "question": "Sally ____ was the first American woman in space.",
+        "answer": "Ride",
+        "explanation": "Sally Ride flew on the Space Shuttle in 1983!",
+        "image_query": "sally+ride+astronaut",
+        "hint": "Her last name is what you do on a bike!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What ancient wonder is the only one still standing?",
+        "options": [
+          "Hanging Gardens",
+          "Colossus of Rhodes",
+          "Great Pyramid",
+          "Lighthouse of Alexandria"
+        ],
+        "correct_index": 2,
+        "explanation": "The Great Pyramid of Giza is the sole survivor of the ancient wonders!",
+        "image_query": "great+pyramid+only+wonder",
+        "hint": "It's in Egypt!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who discovered America for Spain in 1492?",
+        "options": [
+          "Ferdinand Magellan",
+          "Christopher Columbus",
+          "Vasco da Gama",
+          "Amerigo Vespucci"
+        ],
+        "correct_index": 1,
+        "explanation": "Columbus sailed for Spain and reached the Americas!",
+        "image_query": "christopher+columbus",
+        "hint": "He sailed with three ships!"
+      },
+      {
+        "type": "true_false",
+        "question": "Dinosaurs and humans never lived at the same time.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Dinosaurs went extinct 65 million years before humans appeared!",
+        "image_query": "dinosaur+extinction",
+        "hint": "They were long gone!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The first successful vaccine was created to prevent ____.",
+        "answer": "smallpox",
+        "explanation": "Edward Jenner created the smallpox vaccine in 1796!",
+        "image_query": "smallpox+vaccine",
+        "hint": "It was a deadly disease!"
       }
     ],
     "medium": [
@@ -243,7 +2418,12 @@
       {
         "type": "multiple_choice",
         "question": "What year did World War II end?",
-        "options": ["1943", "1944", "1945", "1946"],
+        "options": [
+          "1943",
+          "1944",
+          "1945",
+          "1946"
+        ],
         "correct_index": 2,
         "explanation": "World War II ended in 1945 when Japan surrendered in September.",
         "image_query": "world+war+2+end",
@@ -252,7 +2432,10 @@
       {
         "type": "true_false",
         "question": "The Roman Empire's capital was Athens.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 1,
         "explanation": "Rome was the capital of the Roman Empire! Athens was the capital of ancient Greece.",
         "image_query": "ancient+rome",
@@ -261,7 +2444,12 @@
       {
         "type": "multiple_choice",
         "question": "Who wrote the Declaration of Independence?",
-        "options": ["Benjamin Franklin", "John Adams", "Thomas Jefferson", "George Washington"],
+        "options": [
+          "Benjamin Franklin",
+          "John Adams",
+          "Thomas Jefferson",
+          "George Washington"
+        ],
         "correct_index": 2,
         "explanation": "Thomas Jefferson was the main author of the Declaration of Independence in 1776!",
         "image_query": "thomas+jefferson+portrait",
@@ -270,11 +2458,434 @@
       {
         "type": "multiple_choice",
         "question": "What ancient wonder of the world still stands today?",
-        "options": ["Colossus of Rhodes", "Hanging Gardens", "Great Pyramid of Giza", "Lighthouse of Alexandria"],
+        "options": [
+          "Colossus of Rhodes",
+          "Hanging Gardens",
+          "Great Pyramid of Giza",
+          "Lighthouse of Alexandria"
+        ],
         "correct_index": 2,
         "explanation": "The Great Pyramid of Giza is the only ancient wonder still standing!",
         "image_query": "great+pyramid+giza",
         "hint": "It's in Egypt!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What year did the Titanic sink?",
+        "options": [
+          "1910",
+          "1912",
+          "1914",
+          "1916"
+        ],
+        "correct_index": 1,
+        "explanation": "The Titanic sank on April 15, 1912!",
+        "image_query": "titanic+sinking",
+        "hint": "Just before World War I!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The Underground Railroad helped enslaved people escape to ____.",
+        "answer": "freedom",
+        "explanation": "It was a network of secret routes to help people escape slavery!",
+        "image_query": "underground+railroad",
+        "hint": "They sought liberty!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Boston Tea Party was actually about tea.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "It was a protest against British taxes, not about tea itself!",
+        "image_query": "boston+tea+party",
+        "hint": "It was about taxes!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who was the first emperor of Rome?",
+        "options": [
+          "Julius Caesar",
+          "Augustus",
+          "Nero",
+          "Constantine"
+        ],
+        "correct_index": 1,
+        "explanation": "Augustus became the first Roman emperor in 27 BC!",
+        "image_query": "augustus+emperor",
+        "hint": "His name means 'great'!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What did Alexander Fleming discover?",
+        "options": [
+          "Electricity",
+          "Penicillin",
+          "X-rays",
+          "Vaccines"
+        ],
+        "correct_index": 1,
+        "explanation": "Fleming discovered penicillin, the first antibiotic, in 1928!",
+        "image_query": "alexander+fleming+penicillin",
+        "hint": "It was a medicine!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Vikings came from Scandinavia.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Vikings were from Denmark, Norway, and Sweden!",
+        "image_query": "vikings+scandinavia",
+        "hint": "They were from the north!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The famous speech that begins 'I have a dream' was given by Martin Luther ____.",
+        "answer": "King",
+        "explanation": "Dr. King gave this speech in Washington D.C. in 1963!",
+        "image_query": "i+have+a+dream+speech",
+        "hint": "His last name is for royalty!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What was the name of the first space station?",
+        "options": [
+          "Mir",
+          "Skylab",
+          "ISS",
+          "Salyut 1"
+        ],
+        "correct_index": 3,
+        "explanation": "The Soviet Salyut 1 was launched in 1971!",
+        "image_query": "salyut+space+station",
+        "hint": "It was Soviet!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who painted the Mona Lisa?",
+        "options": [
+          "Michelangelo",
+          "Raphael",
+          "Leonardo da Vinci",
+          "Donatello"
+        ],
+        "correct_index": 2,
+        "explanation": "Leonardo da Vinci painted this famous portrait around 1503!",
+        "image_query": "mona+lisa+leonardo",
+        "hint": "He was also an inventor!"
+      },
+      {
+        "type": "true_false",
+        "question": "George Washington had wooden teeth.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "This is a myth! His dentures were made of ivory, not wood!",
+        "image_query": "george+washington+teeth",
+        "hint": "It's a common myth!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The Silk Road was an ancient trade route connecting China to the ____.",
+        "answer": "Mediterranean",
+        "explanation": "This route was used to trade silk, spices, and other goods!",
+        "image_query": "silk+road+map",
+        "hint": "It went to Europe!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What ship did the Pilgrims sail on to America?",
+        "options": [
+          "Santa Maria",
+          "Mayflower",
+          "Beagle",
+          "Victoria"
+        ],
+        "correct_index": 1,
+        "explanation": "The Mayflower arrived at Plymouth Rock in 1620!",
+        "image_query": "mayflower+pilgrims",
+        "hint": "It's named after a flower!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who was the youngest U.S. president?",
+        "options": [
+          "John F. Kennedy",
+          "Theodore Roosevelt",
+          "Bill Clinton",
+          "Barack Obama"
+        ],
+        "correct_index": 1,
+        "explanation": "Theodore Roosevelt was 42 when he became president!",
+        "image_query": "theodore+roosevelt",
+        "hint": "He loved nature!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Panama Canal connects the Atlantic and Pacific oceans.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "The Panama Canal was completed in 1914!",
+        "image_query": "panama+canal",
+        "hint": "It's a shortcut!"
+      },
+      {
+        "type": "fill_in",
+        "question": "Harriet ____ helped many enslaved people escape via the Underground Railroad.",
+        "answer": "Tubman",
+        "explanation": "Harriet Tubman made 13 trips and never lost a passenger!",
+        "image_query": "harriet+tubman",
+        "hint": "She was very brave!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What was the first successful English colony in America?",
+        "options": [
+          "Plymouth",
+          "Jamestown",
+          "Boston",
+          "Philadelphia"
+        ],
+        "correct_index": 1,
+        "explanation": "Jamestown was founded in Virginia in 1607!",
+        "image_query": "jamestown+colony",
+        "hint": "It's named after a king!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who was the first person to circumnavigate the globe?",
+        "options": [
+          "Christopher Columbus",
+          "Vasco da Gama",
+          "Ferdinand Magellan",
+          "Sir Francis Drake"
+        ],
+        "correct_index": 2,
+        "explanation": "Magellan's expedition completed the first circumnavigation!",
+        "image_query": "magellan+voyage",
+        "hint": "His name starts with M!"
+      },
+      {
+        "type": "true_false",
+        "question": "Julius Caesar was the first Roman Emperor.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "Caesar was a dictator; Augustus was the first emperor!",
+        "image_query": "julius+caesar",
+        "hint": "He was before emperors!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The first successful airplane flight lasted only ____ seconds.",
+        "answer": "12",
+        "explanation": "The Wright Brothers' first flight in 1903 lasted just 12 seconds!",
+        "image_query": "first+flight+wright+brothers",
+        "hint": "It's less than 15!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What famous document begins with 'We the People'?",
+        "options": [
+          "Declaration of Independence",
+          "Bill of Rights",
+          "The Constitution",
+          "Magna Carta"
+        ],
+        "correct_index": 2,
+        "explanation": "The U.S. Constitution starts with these words!",
+        "image_query": "constitution+we+the+people",
+        "hint": "It's the supreme law!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who led India to independence from Britain?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Mahatma Gandhi",
+          "Indira Gandhi",
+          "Rabindranath Tagore"
+        ],
+        "correct_index": 1,
+        "explanation": "Gandhi led peaceful protests for independence achieved in 1947!",
+        "image_query": "mahatma+gandhi",
+        "hint": "He believed in non-violence!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Pony Express delivered mail for over 50 years.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "The Pony Express only operated for 18 months in 1860-1861!",
+        "image_query": "pony+express",
+        "hint": "It was very short-lived!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The battle that ended the Revolutionary War was at ____.",
+        "answer": "Yorktown",
+        "explanation": "The British surrendered at Yorktown in 1781!",
+        "image_query": "yorktown+battle",
+        "hint": "It's a town name!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What was the name of the first artificial satellite?",
+        "options": [
+          "Explorer 1",
+          "Sputnik 1",
+          "Vanguard 1",
+          "Telstar"
+        ],
+        "correct_index": 1,
+        "explanation": "The Soviet Union launched Sputnik 1 in 1957!",
+        "image_query": "sputnik+satellite",
+        "hint": "It was Soviet!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who was the first woman to win a Nobel Prize?",
+        "options": [
+          "Marie Curie",
+          "Mother Teresa",
+          "Jane Addams",
+          "Rosalind Franklin"
+        ],
+        "correct_index": 0,
+        "explanation": "Marie Curie won the Nobel Prize in Physics in 1903!",
+        "image_query": "marie+curie",
+        "hint": "She studied radioactivity!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Hundred Years' War lasted exactly 100 years.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 1,
+        "explanation": "It actually lasted 116 years (1337-1453)!",
+        "image_query": "hundred+years+war",
+        "hint": "It was longer!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The practice of separating people by race was called ____.",
+        "answer": "segregation",
+        "explanation": "Segregation was legal in parts of the U.S. until the 1960s!",
+        "image_query": "segregation+civil+rights",
+        "hint": "It means keeping apart!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What volcano destroyed Pompeii?",
+        "options": [
+          "Mt. Etna",
+          "Mt. Vesuvius",
+          "Mt. St. Helens",
+          "Krakatoa"
+        ],
+        "correct_index": 1,
+        "explanation": "Mt. Vesuvius erupted in 79 AD, burying Pompeii!",
+        "image_query": "vesuvius+pompeii",
+        "hint": "It's in Italy!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who invented the light bulb?",
+        "options": [
+          "Nikola Tesla",
+          "Benjamin Franklin",
+          "Thomas Edison",
+          "Alexander Graham Bell"
+        ],
+        "correct_index": 2,
+        "explanation": "Thomas Edison perfected the light bulb in 1879!",
+        "image_query": "edison+light+bulb",
+        "hint": "He had a lab in Menlo Park!"
+      },
+      {
+        "type": "true_false",
+        "question": "Cleopatra was the last pharaoh of Egypt.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "Cleopatra VII was the last pharaoh, ruling until 30 BC!",
+        "image_query": "cleopatra+last+pharaoh",
+        "hint": "She was the last!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The Allied forces invaded Normandy on ____-Day.",
+        "answer": "D",
+        "explanation": "D-Day was June 6, 1944, during World War II!",
+        "image_query": "d+day+normandy",
+        "hint": "It's one letter!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "Who wrote 'The Diary of a Young Girl'?",
+        "options": [
+          "Helen Keller",
+          "Anne Frank",
+          "Harriet Tubman",
+          "Rosa Parks"
+        ],
+        "correct_index": 1,
+        "explanation": "Anne Frank wrote her famous diary while hiding from Nazis!",
+        "image_query": "anne+frank+diary",
+        "hint": "She hid during WWII!"
+      },
+      {
+        "type": "multiple_choice",
+        "question": "What was the first state to ratify the Constitution?",
+        "options": [
+          "Virginia",
+          "Pennsylvania",
+          "Delaware",
+          "Massachusetts"
+        ],
+        "correct_index": 2,
+        "explanation": "Delaware ratified it on December 7, 1787!",
+        "image_query": "delaware+first+state",
+        "hint": "It's called the First State!"
+      },
+      {
+        "type": "true_false",
+        "question": "The Great Fire of London happened in 1666.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "correct_index": 0,
+        "explanation": "The fire destroyed much of London in September 1666!",
+        "image_query": "great+fire+london",
+        "hint": "The year has three 6s!"
+      },
+      {
+        "type": "fill_in",
+        "question": "The ancient library in Egypt was in the city of ____.",
+        "answer": "Alexandria",
+        "explanation": "The Library of Alexandria was one of the ancient world's greatest!",
+        "image_query": "library+alexandria",
+        "hint": "It's named after Alexander!"
       }
     ],
     "hard": [
@@ -289,7 +2900,12 @@
       {
         "type": "multiple_choice",
         "question": "Who was the emperor of France during the early 1800s?",
-        "options": ["Louis XVI", "Napoleon Bonaparte", "Charles de Gaulle", "Henri IV"],
+        "options": [
+          "Louis XVI",
+          "Napoleon Bonaparte",
+          "Charles de Gaulle",
+          "Henri IV"
+        ],
         "correct_index": 1,
         "explanation": "Napoleon Bonaparte crowned himself Emperor of France in 1804!",
         "image_query": "napoleon+bonaparte",
@@ -298,7 +2914,10 @@
       {
         "type": "true_false",
         "question": "The printing press was invented in China before it was used in Europe.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "China invented printing centuries before Gutenberg's press in Europe!",
         "image_query": "ancient+chinese+printing",
@@ -307,7 +2926,12 @@
       {
         "type": "multiple_choice",
         "question": "What was the name of the ship that brought the Pilgrims to America?",
-        "options": ["Santa Maria", "Mayflower", "HMS Beagle", "Endeavour"],
+        "options": [
+          "Santa Maria",
+          "Mayflower",
+          "HMS Beagle",
+          "Endeavour"
+        ],
         "correct_index": 1,
         "explanation": "The Mayflower brought the Pilgrims to Plymouth Rock in 1620!",
         "image_query": "mayflower+ship",
@@ -316,7 +2940,12 @@
       {
         "type": "multiple_choice",
         "question": "Which ancient civilization built Machu Picchu?",
-        "options": ["Aztec", "Maya", "Inca", "Olmec"],
+        "options": [
+          "Aztec",
+          "Maya",
+          "Inca",
+          "Olmec"
+        ],
         "correct_index": 2,
         "explanation": "The Inca Empire built Machu Picchu in Peru around 1450!",
         "image_query": "machu+picchu",
@@ -335,7 +2964,12 @@
       {
         "type": "multiple_choice",
         "question": "What treaty ended World War I?",
-        "options": ["Treaty of Paris", "Treaty of Versailles", "Treaty of Vienna", "Treaty of Ghent"],
+        "options": [
+          "Treaty of Paris",
+          "Treaty of Versailles",
+          "Treaty of Vienna",
+          "Treaty of Ghent"
+        ],
         "correct_index": 1,
         "explanation": "The Treaty of Versailles was signed in 1919 and officially ended WWI.",
         "image_query": "treaty+of+versailles",
@@ -344,7 +2978,10 @@
       {
         "type": "true_false",
         "question": "Cleopatra was Egyptian by birth.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 1,
         "explanation": "Cleopatra was actually Greek! She was descended from Ptolemy, one of Alexander the Great's generals.",
         "image_query": "cleopatra+egypt",
@@ -353,7 +2990,12 @@
       {
         "type": "multiple_choice",
         "question": "Who led the Mongol Empire in the 1200s?",
-        "options": ["Attila the Hun", "Genghis Khan", "Kublai Khan", "Tamerlane"],
+        "options": [
+          "Attila the Hun",
+          "Genghis Khan",
+          "Kublai Khan",
+          "Tamerlane"
+        ],
         "correct_index": 1,
         "explanation": "Genghis Khan united the Mongol tribes and created the largest land empire in history!",
         "image_query": "genghis+khan",
@@ -374,7 +3016,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the largest land animal?",
-        "options": ["Giraffe", "Elephant", "Rhinoceros", "Hippopotamus"],
+        "options": [
+          "Giraffe",
+          "Elephant",
+          "Rhinoceros",
+          "Hippopotamus"
+        ],
         "correct_index": 1,
         "explanation": "African elephants can weigh up to 13,000 pounds!",
         "image_query": "african+elephant",
@@ -383,7 +3030,10 @@
       {
         "type": "true_false",
         "question": "All birds can fly.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 1,
         "explanation": "Some birds like penguins, ostriches, and emus cannot fly!",
         "image_query": "ostrich+running",
@@ -400,7 +3050,12 @@
       {
         "type": "multiple_choice",
         "question": "What do pandas mainly eat?",
-        "options": ["Fish", "Bamboo", "Berries", "Meat"],
+        "options": [
+          "Fish",
+          "Bamboo",
+          "Berries",
+          "Meat"
+        ],
         "correct_index": 1,
         "explanation": "Pandas eat bamboo for up to 14 hours a day!",
         "image_query": "panda+eating+bamboo",
@@ -409,7 +3064,12 @@
       {
         "type": "multiple_choice",
         "question": "How many legs does a spider have?",
-        "options": ["6", "8", "10", "12"],
+        "options": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
         "correct_index": 1,
         "explanation": "All spiders have 8 legs - that's what makes them arachnids!",
         "image_query": "spider+web",
@@ -428,7 +3088,12 @@
       {
         "type": "multiple_choice",
         "question": "What is a group of lions called?",
-        "options": ["Pack", "Herd", "Pride", "Flock"],
+        "options": [
+          "Pack",
+          "Herd",
+          "Pride",
+          "Flock"
+        ],
         "correct_index": 2,
         "explanation": "A group of lions is called a pride, usually led by one or two males!",
         "image_query": "lion+pride",
@@ -437,7 +3102,10 @@
       {
         "type": "true_false",
         "question": "Dolphins are fish.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 1,
         "explanation": "Dolphins are mammals! They breathe air and nurse their babies.",
         "image_query": "dolphin+jumping",
@@ -446,7 +3114,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the largest species of bear?",
-        "options": ["Grizzly Bear", "Black Bear", "Polar Bear", "Panda Bear"],
+        "options": [
+          "Grizzly Bear",
+          "Black Bear",
+          "Polar Bear",
+          "Panda Bear"
+        ],
         "correct_index": 2,
         "explanation": "Polar bears are the largest bears, weighing up to 1,500 pounds!",
         "image_query": "polar+bear+ice",
@@ -455,7 +3128,12 @@
       {
         "type": "multiple_choice",
         "question": "How many hearts does an octopus have?",
-        "options": ["1", "2", "3", "4"],
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
         "correct_index": 2,
         "explanation": "Octopuses have three hearts - two pump blood to the gills, one to the body!",
         "image_query": "octopus+underwater",
@@ -474,7 +3152,12 @@
       {
         "type": "multiple_choice",
         "question": "What animal has the longest lifespan?",
-        "options": ["Elephant", "Tortoise", "Greenland Shark", "Bowhead Whale"],
+        "options": [
+          "Elephant",
+          "Tortoise",
+          "Greenland Shark",
+          "Bowhead Whale"
+        ],
         "correct_index": 2,
         "explanation": "Greenland sharks can live for over 400 years!",
         "image_query": "greenland+shark",
@@ -483,7 +3166,10 @@
       {
         "type": "true_false",
         "question": "Sharks have bones.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 1,
         "explanation": "Sharks have skeletons made of cartilage, not bone - like your nose and ears!",
         "image_query": "shark+swimming",
@@ -492,7 +3178,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the only mammal capable of true flight?",
-        "options": ["Flying Squirrel", "Sugar Glider", "Bat", "Flying Lemur"],
+        "options": [
+          "Flying Squirrel",
+          "Sugar Glider",
+          "Bat",
+          "Flying Lemur"
+        ],
         "correct_index": 2,
         "explanation": "Bats are the only mammals that can truly fly! Others just glide.",
         "image_query": "bat+flying",
@@ -501,7 +3192,12 @@
       {
         "type": "multiple_choice",
         "question": "How many species of bees are there approximately?",
-        "options": ["2,000", "20,000", "200,000", "2,000,000"],
+        "options": [
+          "2,000",
+          "20,000",
+          "200,000",
+          "2,000,000"
+        ],
         "correct_index": 1,
         "explanation": "There are over 20,000 species of bees worldwide!",
         "image_query": "different+types+bees",
@@ -520,7 +3216,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the gestation period of an elephant?",
-        "options": ["9 months", "15 months", "22 months", "30 months"],
+        "options": [
+          "9 months",
+          "15 months",
+          "22 months",
+          "30 months"
+        ],
         "correct_index": 2,
         "explanation": "Elephants are pregnant for almost 2 years - the longest of any mammal!",
         "image_query": "elephant+baby",
@@ -529,7 +3230,10 @@
       {
         "type": "true_false",
         "question": "A group of crows is called a murder.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "It's true! A group of crows is called a murder - a spooky name!",
         "image_query": "crows+group",
@@ -538,7 +3242,12 @@
       {
         "type": "multiple_choice",
         "question": "What animal has the most powerful bite force?",
-        "options": ["Great White Shark", "Saltwater Crocodile", "Hippopotamus", "Orca"],
+        "options": [
+          "Great White Shark",
+          "Saltwater Crocodile",
+          "Hippopotamus",
+          "Orca"
+        ],
         "correct_index": 1,
         "explanation": "Saltwater crocodiles have a bite force of 3,700 pounds per square inch!",
         "image_query": "saltwater+crocodile",
@@ -559,7 +3268,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the name of Earth's natural satellite?",
-        "options": ["Sun", "Moon", "Mars", "Venus"],
+        "options": [
+          "Sun",
+          "Moon",
+          "Mars",
+          "Venus"
+        ],
         "correct_index": 1,
         "explanation": "The Moon orbits Earth and causes our ocean tides!",
         "image_query": "moon+in+space",
@@ -568,7 +3282,10 @@
       {
         "type": "true_false",
         "question": "The Sun is a star.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "The Sun is our closest star - it just looks bigger because it's so close to us!",
         "image_query": "sun+star",
@@ -585,7 +3302,12 @@
       {
         "type": "multiple_choice",
         "question": "How many planets are in our solar system?",
-        "options": ["7", "8", "9", "10"],
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
         "correct_index": 1,
         "explanation": "There are 8 planets since Pluto was reclassified as a dwarf planet in 2006!",
         "image_query": "solar+system+planets",
@@ -594,7 +3316,12 @@
       {
         "type": "multiple_choice",
         "question": "What color is Mars often called?",
-        "options": ["Blue Planet", "Red Planet", "Green Planet", "Yellow Planet"],
+        "options": [
+          "Blue Planet",
+          "Red Planet",
+          "Green Planet",
+          "Yellow Planet"
+        ],
         "correct_index": 1,
         "explanation": "Mars is called the Red Planet because of the iron oxide (rust) on its surface!",
         "image_query": "mars+red+planet",
@@ -613,7 +3340,12 @@
       {
         "type": "multiple_choice",
         "question": "What galaxy do we live in?",
-        "options": ["Andromeda", "Milky Way", "Triangulum", "Whirlpool"],
+        "options": [
+          "Andromeda",
+          "Milky Way",
+          "Triangulum",
+          "Whirlpool"
+        ],
         "correct_index": 1,
         "explanation": "We live in the Milky Way galaxy, which has billions of stars!",
         "image_query": "milky+way+galaxy",
@@ -622,7 +3354,10 @@
       {
         "type": "true_false",
         "question": "There is no sound in space.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "Space is a vacuum with no air, so sound waves can't travel!",
         "image_query": "space+vacuum",
@@ -631,7 +3366,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the hottest planet in our solar system?",
-        "options": ["Mercury", "Venus", "Mars", "Jupiter"],
+        "options": [
+          "Mercury",
+          "Venus",
+          "Mars",
+          "Jupiter"
+        ],
         "correct_index": 1,
         "explanation": "Venus is hotter than Mercury because its thick atmosphere traps heat!",
         "image_query": "venus+planet",
@@ -640,7 +3380,12 @@
       {
         "type": "multiple_choice",
         "question": "How long does it take Earth to orbit the Sun?",
-        "options": ["24 hours", "30 days", "365 days", "10 years"],
+        "options": [
+          "24 hours",
+          "30 days",
+          "365 days",
+          "10 years"
+        ],
         "correct_index": 2,
         "explanation": "Earth takes 365 days (one year) to complete one orbit around the Sun!",
         "image_query": "earth+orbit+sun",
@@ -659,7 +3404,12 @@
       {
         "type": "multiple_choice",
         "question": "What planet has the most moons?",
-        "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+        "options": [
+          "Jupiter",
+          "Saturn",
+          "Uranus",
+          "Neptune"
+        ],
         "correct_index": 1,
         "explanation": "Saturn has over 140 known moons!",
         "image_query": "saturn+moons",
@@ -668,7 +3418,10 @@
       {
         "type": "true_false",
         "question": "Light from the Sun takes about 8 minutes to reach Earth.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "Light travels at 186,000 miles per second and takes about 8 minutes to reach us!",
         "image_query": "sunlight+reaching+earth",
@@ -677,7 +3430,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the name of the closest star system to our solar system?",
-        "options": ["Sirius", "Alpha Centauri", "Betelgeuse", "Proxima"],
+        "options": [
+          "Sirius",
+          "Alpha Centauri",
+          "Betelgeuse",
+          "Proxima"
+        ],
         "correct_index": 1,
         "explanation": "Alpha Centauri is about 4.37 light-years away - our closest stellar neighbor!",
         "image_query": "alpha+centauri",
@@ -686,7 +3444,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the Great Red Spot on Jupiter?",
-        "options": ["A volcano", "A giant storm", "An ocean", "A crater"],
+        "options": [
+          "A volcano",
+          "A giant storm",
+          "An ocean",
+          "A crater"
+        ],
         "correct_index": 1,
         "explanation": "The Great Red Spot is a massive storm that's been raging for hundreds of years!",
         "image_query": "jupiter+great+red+spot",
@@ -705,7 +3468,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the boundary around a black hole called?",
-        "options": ["Event Horizon", "Singularity", "Photon Sphere", "Accretion Disk"],
+        "options": [
+          "Event Horizon",
+          "Singularity",
+          "Photon Sphere",
+          "Accretion Disk"
+        ],
         "correct_index": 0,
         "explanation": "The event horizon is the point of no return - once you cross it, you can't escape!",
         "image_query": "black+hole+event+horizon",
@@ -714,7 +3482,10 @@
       {
         "type": "true_false",
         "question": "Neutron stars can spin hundreds of times per second.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "Some neutron stars (pulsars) spin over 700 times per second!",
         "image_query": "neutron+star+pulsar",
@@ -723,7 +3494,12 @@
       {
         "type": "multiple_choice",
         "question": "What percentage of the universe is dark matter?",
-        "options": ["5%", "27%", "68%", "95%"],
+        "options": [
+          "5%",
+          "27%",
+          "68%",
+          "95%"
+        ],
         "correct_index": 1,
         "explanation": "About 27% of the universe is dark matter - we can't see it but we know it's there!",
         "image_query": "dark+matter+universe",
@@ -744,7 +3520,12 @@
       {
         "type": "multiple_choice",
         "question": "Who wrote 'The Cat in the Hat'?",
-        "options": ["Roald Dahl", "Dr. Seuss", "Eric Carle", "Maurice Sendak"],
+        "options": [
+          "Roald Dahl",
+          "Dr. Seuss",
+          "Eric Carle",
+          "Maurice Sendak"
+        ],
         "correct_index": 1,
         "explanation": "Dr. Seuss wrote many beloved children's books with fun rhymes!",
         "image_query": "cat+in+the+hat",
@@ -753,7 +3534,10 @@
       {
         "type": "true_false",
         "question": "Harry Potter has a lightning bolt scar.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "Harry's lightning bolt scar is on his forehead from when Voldemort attacked him as a baby!",
         "image_query": "harry+potter+scar",
@@ -770,7 +3554,12 @@
       {
         "type": "multiple_choice",
         "question": "What animal is Winnie the Pooh?",
-        "options": ["Bear", "Rabbit", "Tiger", "Pig"],
+        "options": [
+          "Bear",
+          "Rabbit",
+          "Tiger",
+          "Pig"
+        ],
         "correct_index": 0,
         "explanation": "Winnie the Pooh is a friendly bear who loves honey!",
         "image_query": "winnie+the+pooh",
@@ -779,7 +3568,12 @@
       {
         "type": "multiple_choice",
         "question": "In fairy tales, what turns into a carriage for Cinderella?",
-        "options": ["Apple", "Pumpkin", "Watermelon", "Shoe"],
+        "options": [
+          "Apple",
+          "Pumpkin",
+          "Watermelon",
+          "Shoe"
+        ],
         "correct_index": 1,
         "explanation": "The fairy godmother turned a pumpkin into Cinderella's carriage!",
         "image_query": "cinderella+pumpkin+carriage",
@@ -798,7 +3592,12 @@
       {
         "type": "multiple_choice",
         "question": "Who wrote 'Charlie and the Chocolate Factory'?",
-        "options": ["J.K. Rowling", "Roald Dahl", "C.S. Lewis", "Lewis Carroll"],
+        "options": [
+          "J.K. Rowling",
+          "Roald Dahl",
+          "C.S. Lewis",
+          "Lewis Carroll"
+        ],
         "correct_index": 1,
         "explanation": "Roald Dahl wrote many imaginative children's books!",
         "image_query": "charlie+chocolate+factory",
@@ -807,7 +3606,10 @@
       {
         "type": "true_false",
         "question": "The Norse god Thor had a magic hammer called Mjolnir.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "Mjolnir was Thor's powerful hammer that always returned to him when thrown!",
         "image_query": "thor+mjolnir+hammer",
@@ -816,7 +3618,12 @@
       {
         "type": "multiple_choice",
         "question": "What school does Harry Potter attend?",
-        "options": ["Beauxbatons", "Durmstrang", "Hogwarts", "Ilvermorny"],
+        "options": [
+          "Beauxbatons",
+          "Durmstrang",
+          "Hogwarts",
+          "Ilvermorny"
+        ],
         "correct_index": 2,
         "explanation": "Hogwarts School of Witchcraft and Wizardry is where Harry learns magic!",
         "image_query": "hogwarts+castle",
@@ -825,7 +3632,12 @@
       {
         "type": "multiple_choice",
         "question": "In 'The Lion, the Witch and the Wardrobe', what land do the children discover?",
-        "options": ["Wonderland", "Neverland", "Narnia", "Oz"],
+        "options": [
+          "Wonderland",
+          "Neverland",
+          "Narnia",
+          "Oz"
+        ],
         "correct_index": 2,
         "explanation": "Narnia is a magical land reached through a wardrobe!",
         "image_query": "narnia+wardrobe",
@@ -844,7 +3656,12 @@
       {
         "type": "multiple_choice",
         "question": "Who wrote 'The Hobbit'?",
-        "options": ["J.K. Rowling", "C.S. Lewis", "J.R.R. Tolkien", "George R.R. Martin"],
+        "options": [
+          "J.K. Rowling",
+          "C.S. Lewis",
+          "J.R.R. Tolkien",
+          "George R.R. Martin"
+        ],
         "correct_index": 2,
         "explanation": "J.R.R. Tolkien created Middle-earth and wrote 'The Hobbit' and 'The Lord of the Rings'!",
         "image_query": "the+hobbit+book",
@@ -853,7 +3670,10 @@
       {
         "type": "true_false",
         "question": "In Norse mythology, Loki is Thor's brother.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "Loki is the trickster god and Thor's adopted brother (in some versions)!",
         "image_query": "loki+norse+god",
@@ -862,7 +3682,12 @@
       {
         "type": "multiple_choice",
         "question": "What creature guards the entrance to Gringotts Bank in Harry Potter?",
-        "options": ["Dragon", "Phoenix", "Hippogriff", "Basilisk"],
+        "options": [
+          "Dragon",
+          "Phoenix",
+          "Hippogriff",
+          "Basilisk"
+        ],
         "correct_index": 0,
         "explanation": "A Ukrainian Ironbelly dragon guards the deepest vaults at Gringotts!",
         "image_query": "gringotts+dragon",
@@ -871,7 +3696,12 @@
       {
         "type": "multiple_choice",
         "question": "Who is the Roman equivalent of the Greek god Zeus?",
-        "options": ["Mars", "Jupiter", "Neptune", "Mercury"],
+        "options": [
+          "Mars",
+          "Jupiter",
+          "Neptune",
+          "Mercury"
+        ],
         "correct_index": 1,
         "explanation": "Jupiter was the king of the Roman gods, just like Zeus in Greek mythology!",
         "image_query": "jupiter+roman+god",
@@ -890,7 +3720,12 @@
       {
         "type": "multiple_choice",
         "question": "In Greek mythology, who flew too close to the sun?",
-        "options": ["Daedalus", "Icarus", "Perseus", "Orpheus"],
+        "options": [
+          "Daedalus",
+          "Icarus",
+          "Perseus",
+          "Orpheus"
+        ],
         "correct_index": 1,
         "explanation": "Icarus' wax wings melted when he flew too close to the sun!",
         "image_query": "icarus+flying+sun",
@@ -899,7 +3734,10 @@
       {
         "type": "true_false",
         "question": "In mythology, the phoenix is reborn from its own ashes.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "The phoenix is a legendary bird that burns and is reborn from the ashes!",
         "image_query": "phoenix+bird+fire",
@@ -908,7 +3746,12 @@
       {
         "type": "multiple_choice",
         "question": "Who is the Norse god of thunder?",
-        "options": ["Odin", "Loki", "Thor", "Freya"],
+        "options": [
+          "Odin",
+          "Loki",
+          "Thor",
+          "Freya"
+        ],
         "correct_index": 2,
         "explanation": "Thor is the mighty god of thunder, wielding his hammer Mjolnir!",
         "image_query": "thor+norse+mythology",
@@ -929,7 +3772,12 @@
       {
         "type": "multiple_choice",
         "question": "What is 5 + 7?",
-        "options": ["10", "11", "12", "13"],
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
         "correct_index": 2,
         "explanation": "5 + 7 = 12! Great job!",
         "image_query": null,
@@ -938,7 +3786,10 @@
       {
         "type": "true_false",
         "question": "A triangle has 3 sides.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "That's right! Triangles always have exactly 3 sides and 3 corners!",
         "image_query": "triangle+shape",
@@ -955,7 +3806,12 @@
       {
         "type": "multiple_choice",
         "question": "How many sides does a square have?",
-        "options": ["3", "4", "5", "6"],
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
         "correct_index": 1,
         "explanation": "A square has 4 equal sides!",
         "image_query": "square+shape",
@@ -964,7 +3820,12 @@
       {
         "type": "multiple_choice",
         "question": "What is half of 10?",
-        "options": ["3", "4", "5", "6"],
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
         "correct_index": 2,
         "explanation": "Half of 10 is 5 - if you split 10 into two equal parts!",
         "image_query": null,
@@ -974,25 +3835,33 @@
     "medium": [
       {
         "type": "fill_in",
-        "question": "What is 8 × 7? ____",
+        "question": "What is 8 \u00c3\u2014 7? ____",
         "answer": "56",
-        "explanation": "8 × 7 = 56! That's a tricky one!",
+        "explanation": "8 \u00c3\u2014 7 = 56! That's a tricky one!",
         "image_query": null,
         "hint": "Think of your times tables!"
       },
       {
         "type": "multiple_choice",
-        "question": "What is the value of π (pi) rounded to two decimal places?",
-        "options": ["3.12", "3.14", "3.16", "3.18"],
+        "question": "What is the value of \u00cf\u20ac (pi) rounded to two decimal places?",
+        "options": [
+          "3.12",
+          "3.14",
+          "3.16",
+          "3.18"
+        ],
         "correct_index": 1,
-        "explanation": "Pi (π) is approximately 3.14 and helps us calculate circles!",
+        "explanation": "Pi (\u00cf\u20ac) is approximately 3.14 and helps us calculate circles!",
         "image_query": "pi+circle",
         "hint": "It starts with 3.1..."
       },
       {
         "type": "true_false",
         "question": "A pentagon has 5 sides.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "Correct! A pentagon has 5 sides and 5 corners!",
         "image_query": "pentagon+shape",
@@ -1001,16 +3870,26 @@
       {
         "type": "multiple_choice",
         "question": "What is 100 divided by 4?",
-        "options": ["20", "25", "30", "35"],
+        "options": [
+          "20",
+          "25",
+          "30",
+          "35"
+        ],
         "correct_index": 1,
-        "explanation": "100 ÷ 4 = 25!",
+        "explanation": "100 \u00c3\u00b7 4 = 25!",
         "image_query": null,
         "hint": "How many quarters are in a dollar?"
       },
       {
         "type": "multiple_choice",
         "question": "What is 15% of 100?",
-        "options": ["5", "10", "15", "20"],
+        "options": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
         "correct_index": 2,
         "explanation": "15% of 100 is 15! Percent means 'out of 100'!",
         "image_query": null,
@@ -1022,23 +3901,31 @@
         "type": "fill_in",
         "question": "What is the square root of 144? ____",
         "answer": "12",
-        "explanation": "12 × 12 = 144, so the square root of 144 is 12!",
+        "explanation": "12 \u00c3\u2014 12 = 144, so the square root of 144 is 12!",
         "image_query": null,
         "hint": "What number times itself equals 144?"
       },
       {
         "type": "multiple_choice",
-        "question": "What is 7³ (7 to the power of 3)?",
-        "options": ["21", "49", "343", "2401"],
+        "question": "What is 7\u00c2\u00b3 (7 to the power of 3)?",
+        "options": [
+          "21",
+          "49",
+          "343",
+          "2401"
+        ],
         "correct_index": 2,
-        "explanation": "7³ means 7 × 7 × 7 = 343!",
+        "explanation": "7\u00c2\u00b3 means 7 \u00c3\u2014 7 \u00c3\u2014 7 = 343!",
         "image_query": null,
         "hint": "Multiply 7 by itself three times!"
       },
       {
         "type": "true_false",
         "question": "A prime number can only be divided by 1 and itself.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "That's right! Prime numbers like 2, 3, 5, 7, 11 have exactly two factors!",
         "image_query": "prime+numbers",
@@ -1047,7 +3934,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the sum of angles in a triangle?",
-        "options": ["90 degrees", "180 degrees", "270 degrees", "360 degrees"],
+        "options": [
+          "90 degrees",
+          "180 degrees",
+          "270 degrees",
+          "360 degrees"
+        ],
         "correct_index": 1,
         "explanation": "All triangles have angles that add up to 180 degrees!",
         "image_query": "triangle+angles",
@@ -1056,9 +3948,14 @@
       {
         "type": "multiple_choice",
         "question": "If a train travels 60 miles per hour for 2.5 hours, how far does it go?",
-        "options": ["120 miles", "150 miles", "180 miles", "200 miles"],
+        "options": [
+          "120 miles",
+          "150 miles",
+          "180 miles",
+          "200 miles"
+        ],
         "correct_index": 1,
-        "explanation": "60 × 2.5 = 150 miles!",
+        "explanation": "60 \u00c3\u2014 2.5 = 150 miles!",
         "image_query": null,
         "hint": "Multiply speed by time!"
       }
@@ -1075,7 +3972,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the Fibonacci number after 0, 1, 1, 2, 3, 5, 8?",
-        "options": ["11", "12", "13", "14"],
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
         "correct_index": 2,
         "explanation": "The Fibonacci sequence adds the two previous numbers: 5 + 8 = 13!",
         "image_query": "fibonacci+spiral",
@@ -1084,7 +3986,10 @@
       {
         "type": "true_false",
         "question": "The number 1 is considered a prime number.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 1,
         "explanation": "1 is NOT prime because prime numbers must have exactly two factors, and 1 only has one!",
         "image_query": "prime+numbers+chart",
@@ -1092,10 +3997,15 @@
       },
       {
         "type": "multiple_choice",
-        "question": "What is the value of sin(30°)?",
-        "options": ["0.5", "0.707", "0.866", "1"],
+        "question": "What is the value of sin(30\u00c2\u00b0)?",
+        "options": [
+          "0.5",
+          "0.707",
+          "0.866",
+          "1"
+        ],
         "correct_index": 0,
-        "explanation": "sin(30°) = 0.5, which is the same as 1/2!",
+        "explanation": "sin(30\u00c2\u00b0) = 0.5, which is the same as 1/2!",
         "image_query": "sine+wave",
         "hint": "It's a simple fraction!"
       },
@@ -1114,7 +4024,12 @@
       {
         "type": "multiple_choice",
         "question": "What color is a ruby?",
-        "options": ["Blue", "Green", "Red", "Yellow"],
+        "options": [
+          "Blue",
+          "Green",
+          "Red",
+          "Yellow"
+        ],
         "correct_index": 2,
         "explanation": "Rubies are beautiful red gemstones!",
         "image_query": "ruby+gemstone",
@@ -1123,7 +4038,10 @@
       {
         "type": "true_false",
         "question": "A rainbow has 7 colors.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "Rainbows have 7 colors: red, orange, yellow, green, blue, indigo, and violet!",
         "image_query": "rainbow+colors",
@@ -1140,7 +4058,12 @@
       {
         "type": "multiple_choice",
         "question": "How many continents are there?",
-        "options": ["5", "6", "7", "8"],
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
         "correct_index": 2,
         "explanation": "There are 7 continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America!",
         "image_query": "world+continents+map",
@@ -1149,7 +4072,12 @@
       {
         "type": "multiple_choice",
         "question": "What season comes after summer?",
-        "options": ["Spring", "Fall", "Winter", "Monsoon"],
+        "options": [
+          "Spring",
+          "Fall",
+          "Winter",
+          "Monsoon"
+        ],
         "correct_index": 1,
         "explanation": "Fall (or autumn) comes after summer!",
         "image_query": "autumn+leaves",
@@ -1168,7 +4096,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the largest ocean on Earth?",
-        "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+        "options": [
+          "Atlantic",
+          "Indian",
+          "Arctic",
+          "Pacific"
+        ],
         "correct_index": 3,
         "explanation": "The Pacific Ocean covers about 30% of Earth's surface!",
         "image_query": "pacific+ocean",
@@ -1177,7 +4110,10 @@
       {
         "type": "true_false",
         "question": "Tomatoes are vegetables.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 1,
         "explanation": "Botanically, tomatoes are fruits because they have seeds!",
         "image_query": "tomato+plant",
@@ -1186,7 +4122,12 @@
       {
         "type": "multiple_choice",
         "question": "What instrument has 88 keys?",
-        "options": ["Guitar", "Violin", "Piano", "Flute"],
+        "options": [
+          "Guitar",
+          "Violin",
+          "Piano",
+          "Flute"
+        ],
         "correct_index": 2,
         "explanation": "A standard piano has 88 keys - 52 white and 36 black!",
         "image_query": "piano+keys",
@@ -1195,7 +4136,12 @@
       {
         "type": "multiple_choice",
         "question": "How many players are on a soccer team (on the field)?",
-        "options": ["9", "10", "11", "12"],
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
         "correct_index": 2,
         "explanation": "Each soccer team has 11 players on the field at a time!",
         "image_query": "soccer+team",
@@ -1214,7 +4160,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the smallest country in the world?",
-        "options": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+        "options": [
+          "Monaco",
+          "Vatican City",
+          "San Marino",
+          "Liechtenstein"
+        ],
         "correct_index": 1,
         "explanation": "Vatican City is only 0.17 square miles!",
         "image_query": "vatican+city",
@@ -1223,7 +4174,10 @@
       {
         "type": "true_false",
         "question": "The Grand Canyon is in Arizona.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 0,
         "explanation": "The Grand Canyon is in northern Arizona and is over 277 miles long!",
         "image_query": "grand+canyon+arizona",
@@ -1232,7 +4186,12 @@
       {
         "type": "multiple_choice",
         "question": "What language has the most native speakers?",
-        "options": ["English", "Spanish", "Mandarin Chinese", "Hindi"],
+        "options": [
+          "English",
+          "Spanish",
+          "Mandarin Chinese",
+          "Hindi"
+        ],
         "correct_index": 2,
         "explanation": "Mandarin Chinese has over 900 million native speakers!",
         "image_query": "mandarin+chinese+characters",
@@ -1241,7 +4200,12 @@
       {
         "type": "multiple_choice",
         "question": "How many time zones does Russia have?",
-        "options": ["6", "9", "11", "13"],
+        "options": [
+          "6",
+          "9",
+          "11",
+          "13"
+        ],
         "correct_index": 2,
         "explanation": "Russia spans 11 time zones because it's so vast!",
         "image_query": "russia+map",
@@ -1260,7 +4224,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the chemical symbol for gold?",
-        "options": ["Go", "Gd", "Au", "Ag"],
+        "options": [
+          "Go",
+          "Gd",
+          "Au",
+          "Ag"
+        ],
         "correct_index": 2,
         "explanation": "Au comes from the Latin word 'aurum' meaning gold!",
         "image_query": "gold+periodic+table",
@@ -1269,7 +4238,10 @@
       {
         "type": "true_false",
         "question": "Bananas grow on trees.",
-        "options": ["True", "False"],
+        "options": [
+          "True",
+          "False"
+        ],
         "correct_index": 1,
         "explanation": "Bananas grow on large herbaceous plants, not trees!",
         "image_query": "banana+plant",
@@ -1278,7 +4250,12 @@
       {
         "type": "multiple_choice",
         "question": "What is the speed of light in a vacuum?",
-        "options": ["186,000 miles/second", "93,000 miles/second", "300,000 miles/second", "500,000 miles/second"],
+        "options": [
+          "186,000 miles/second",
+          "93,000 miles/second",
+          "300,000 miles/second",
+          "500,000 miles/second"
+        ],
         "correct_index": 0,
         "explanation": "Light travels at 186,000 miles per second (or 300,000 km/s)!",
         "image_query": "speed+of+light",
